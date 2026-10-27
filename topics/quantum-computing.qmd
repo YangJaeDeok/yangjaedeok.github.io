@@ -1,0 +1,13 @@
+---
+title: "Quantum Computing"
+listing:
+  contents: "../posts/*/index.qmd"
+  include:
+    categories: "Quantum Computing"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+---
+
+[Computer Science](computer-science.qmd)의 하위 주제입니다. 이 주제의 글에는 `Computer Science`와 `Quantum Computing` 카테고리를 함께 붙입니다.

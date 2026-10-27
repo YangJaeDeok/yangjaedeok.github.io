@@ -1,0 +1,68 @@
+---
+title: "이중 슬릿 간섭 무늬 살펴보기"
+description: "슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글"
+date: "2026-10-27"
+categories: [Physics, Visualization]
+jupyter: python3
+---
+
+이 글은 블로그에서 쓸 수 있는 두 가지 상호작용 방식을 확인하기 위한 예시입니다.
+
+## 1. 3D 그래프 (Plotly)
+
+$$z = \frac{\sin r}{r},\quad r = \sqrt{x^2 + y^2}$$
+
+그래프를 마우스로 돌리고 확대해 볼 수 있습니다. 이 그래프는 빌드할 때 Python으로 한 번 계산됩니다.
+
+```{python}
+#| code-fold: true
+#| label: fig-sinc-surface
+import numpy as np
+import plotly.graph_objects as go
+
+x = np.linspace(-6, 6, 120)
+y = np.linspace(-6, 6, 120)
+X, Y = np.meshgrid(x, y)
+R = np.hypot(X, Y)
+Z = np.sinc(R / np.pi)  # sin(R) / R
+
+fig = go.Figure(go.Surface(x=X, y=Y, z=Z, colorscale="Viridis"))
+fig.update_layout(
+    height=520,
+    margin=dict(l=0, r=0, t=30, b=0),
+    scene=dict(xaxis_title="x", yaxis_title="y", zaxis_title="sin(r)/r"),
+)
+fig.show()
+```
+
+## 2. 슬라이더로 바뀌는 그래프 (Observable JS)
+
+이중 슬릿의 세기 분포는 다음과 같습니다. 방문자의 브라우저에서 계산되므로 슬라이더를 움직이면 바로 갱신됩니다.
+
+$$I(\theta) = \cos^2\!\left(\frac{\pi d \sin\theta}{\lambda}\right)\left(\frac{\sin\beta}{\beta}\right)^2,\quad \beta = \frac{\pi a \sin\theta}{\lambda}$$
+
+```{ojs}
+viewof lam = Inputs.range([400, 700], {value: 550, step: 10, label: "파장 λ (nm)"})
+viewof d = Inputs.range([2, 20], {value: 8, step: 0.5, label: "슬릿 간격 d (µm)"})
+viewof a = Inputs.range([0.5, 5], {value: 1.5, step: 0.1, label: "슬릿 너비 a (µm)"})
+```
+
+```{ojs}
+data = {
+  const wl = lam / 1000; // µm
+  const sinc2 = (b) => (Math.abs(b) < 1e-9 ? 1 : (Math.sin(b) / b) ** 2);
+  return d3.range(-0.3, 0.3001, 0.001).map((theta) => {
+    const s = Math.sin(theta);
+    const beta = (Math.PI * a * s) / wl;
+    const phase = (Math.PI * d * s) / wl;
+    return { theta, intensity: Math.cos(phase) ** 2 * sinc2(beta) };
+  });
+}
+
+Plot.plot({
+  height: 320,
+  x: { label: "θ (rad)" },
+  y: { label: "상대 세기", domain: [0, 1] },
+  marks: [Plot.lineY(data, { x: "theta", y: "intensity" }), Plot.ruleY([0])],
+})
+```

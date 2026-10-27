@@ -316,3 +316,9 @@ opencode.json
 
 # 에이전트 스킬이 생성하는 계획·설계 문서 (superpowers 플러그인)
 docs/superpowers/
+
+# Quarto 빌드 산출물 (_freeze/와 _publish.yml은 커밋)
+/.quarto/
+/_site/
+
+**/*.quarto_ipynb

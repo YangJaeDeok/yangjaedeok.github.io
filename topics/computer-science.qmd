@@ -1,0 +1,13 @@
+---
+title: "Computer Science"
+listing:
+  contents: "../posts/*/index.qmd"
+  include:
+    categories: "Computer Science"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+---
+
+컴퓨터 과학. 하위 주제: [Classical Computing](classical-computing.qmd), [Quantum Computing](quantum-computing.qmd)

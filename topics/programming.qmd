@@ -1,0 +1,13 @@
+---
+title: "Programming"
+listing:
+  contents: "../posts/*/index.qmd"
+  include:
+    categories: "Programming"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+---
+
+개인 학습 및 부트캠프, Python, ML, DL, AI.

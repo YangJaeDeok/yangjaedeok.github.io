@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+    - "topics/*.qmd"
+
+lang: ko
+date-format: "YYYY-MM-DD"
+
+website:
+  title: "YangJaedeok's Blog"
+  site-url: https://yangjaedeok.github.io
+  navbar:
+    left:
+      - text: Physics
+        menu:
+          - text: All Physics
+            href: topics/physics.qmd
+          - text: Quantum Information
+            href: topics/quantum-information.qmd
+      - text: Programming
+        href: topics/programming.qmd
+      - text: Computer Science
+        menu:
+          - text: All Computer Science
+            href: topics/computer-science.qmd
+          - text: Classical Computing
+            href: topics/classical-computing.qmd
+          - text: Quantum Computing
+            href: topics/quantum-computing.qmd
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/YangJaeDeok
+        aria-label: GitHub
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
+
+execute:
+  freeze: auto

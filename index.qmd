@@ -1,0 +1,11 @@
+---
+title: "YangJaedeok's Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories]
+page-layout: full
+title-block-banner: true
+---
