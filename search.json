@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "topics/quantum-information.html",
+    "href": "topics/quantum-information.html",
+    "title": "Quantum Information",
+    "section": "",
+    "text": "Physics의 하위 주제입니다. 이 주제의 글에는 Physics와 Quantum Information 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/programming.html",
+    "href": "topics/programming.html",
+    "title": "Programming",
+    "section": "",
+    "text": "개인 학습 및 부트캠프, Python, ML, DL, AI.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/computer-science.html",
+    "href": "topics/computer-science.html",
+    "title": "Computer Science",
+    "section": "",
+    "text": "컴퓨터 과학. 하위 주제: Classical Computing, Quantum Computing\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "posts/double-slit-interference/index.html",
+    "href": "posts/double-slit-interference/index.html",
+    "title": "이중 슬릿 간섭 무늬 살펴보기",
+    "section": "",
+    "text": "이 글은 블로그에서 쓸 수 있는 두 가지 상호작용 방식을 확인하기 위한 예시입니다."
+  },
+  {
+    "objectID": "posts/double-slit-interference/index.html#d-그래프-plotly",
+    "href": "posts/double-slit-interference/index.html#d-그래프-plotly",
+    "title": "이중 슬릿 간섭 무늬 살펴보기",
+    "section": "1. 3D 그래프 (Plotly)",
+    "text": "1. 3D 그래프 (Plotly)\n\\[z = \\frac{\\sin r}{r},\\quad r = \\sqrt{x^2 + y^2}\\]\n그래프를 마우스로 돌리고 확대해 볼 수 있습니다. 이 그래프는 빌드할 때 Python으로 한 번 계산됩니다.\n\n\n코드\nimport numpy as np\nimport plotly.graph_objects as go\n\nx = np.linspace(-6, 6, 120)\ny = np.linspace(-6, 6, 120)\nX, Y = np.meshgrid(x, y)\nR = np.hypot(X, Y)\nZ = np.sinc(R / np.pi)  # sin(R) / R\n\nfig = go.Figure(go.Surface(x=X, y=Y, z=Z, colorscale=\"Viridis\"))\nfig.update_layout(\n    height=520,\n    margin=dict(l=0, r=0, t=30, b=0),\n    scene=dict(xaxis_title=\"x\", yaxis_title=\"y\", zaxis_title=\"sin(r)/r\"),\n)\nfig.show()\n\n\n\n\n                            \n                                            \n\n\n그림 1"
+  },
+  {
+    "objectID": "posts/double-slit-interference/index.html#슬라이더로-바뀌는-그래프-observable-js",
+    "href": "posts/double-slit-interference/index.html#슬라이더로-바뀌는-그래프-observable-js",
+    "title": "이중 슬릿 간섭 무늬 살펴보기",
+    "section": "2. 슬라이더로 바뀌는 그래프 (Observable JS)",
+    "text": "2. 슬라이더로 바뀌는 그래프 (Observable JS)\n이중 슬릿의 세기 분포는 다음과 같습니다. 방문자의 브라우저에서 계산되므로 슬라이더를 움직이면 바로 갱신됩니다.\n\\[I(\\theta) = \\cos^2\\!\\left(\\frac{\\pi d \\sin\\theta}{\\lambda}\\right)\\left(\\frac{\\sin\\beta}{\\beta}\\right)^2,\\quad \\beta = \\frac{\\pi a \\sin\\theta}{\\lambda}\\]\n\nviewof lam = Inputs.range([400, 700], {value: 550, step: 10, label: \"파장 λ (nm)\"})\nviewof d = Inputs.range([2, 20], {value: 8, step: 0.5, label: \"슬릿 간격 d (µm)\"})\nviewof a = Inputs.range([0.5, 5], {value: 1.5, step: 0.1, label: \"슬릿 너비 a (µm)\"})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata = {\n  const wl = lam / 1000; // µm\n  const sinc2 = (b) =&gt; (Math.abs(b) &lt; 1e-9 ? 1 : (Math.sin(b) / b) ** 2);\n  return d3.range(-0.3, 0.3001, 0.001).map((theta) =&gt; {\n    const s = Math.sin(theta);\n    const beta = (Math.PI * a * s) / wl;\n    const phase = (Math.PI * d * s) / wl;\n    return { theta, intensity: Math.cos(phase) ** 2 * sinc2(beta) };\n  });\n}\n\nPlot.plot({\n  height: 320,\n  x: { label: \"θ (rad)\" },\n  y: { label: \"상대 세기\", domain: [0, 1] },\n  marks: [Plot.lineY(data, { x: \"theta\", y: \"intensity\" }), Plot.ruleY([0])],\n})"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "소개",
+    "section": "",
+    "text": "물리, 프로그래밍, 컴퓨터 과학을 공부하며 남기는 기록입니다.\n\nPhysics: 전공 문제 풀이, 계산과 시뮬레이션, 시각화\nProgramming: 개인 학습 및 부트캠프, Python, ML, DL, AI\nComputer Science: 컴퓨터 과학"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "YangJaedeok’s Blog",
+    "section": "",
+    "text": "이중 슬릿 간섭 무늬 살펴보기\n\n\n\nPhysics\n\nVisualization\n\n\n\n슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글\n\n\n\n\n\n2026-10-27\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/classical-computing.html",
+    "href": "topics/classical-computing.html",
+    "title": "Classical Computing",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Classical Computing 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/physics.html",
+    "href": "topics/physics.html",
+    "title": "Physics",
+    "section": "",
+    "text": "전공 문제 풀이, 계산과 시뮬레이션, 시각화. 하위 주제: Quantum Information\n\n\n\n\n\n\n\n\n\n이중 슬릿 간섭 무늬 살펴보기\n\n\n\nPhysics\n\nVisualization\n\n\n\n슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글\n\n\n\n\n\n2026-10-27\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/quantum-computing.html",
+    "href": "topics/quantum-computing.html",
+    "title": "Quantum Computing",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Quantum Computing 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  }
+]
