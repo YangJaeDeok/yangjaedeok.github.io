@@ -32,6 +32,8 @@ website:
             href: topics/physics.qmd
           - text: Quantum Information
             href: topics/quantum-information.qmd
+          - text: Quantum Mechanics
+            href: topics/quantum-mechanics.qmd
       - text: Programming
         href: topics/programming.qmd
       - text: Computer Science
