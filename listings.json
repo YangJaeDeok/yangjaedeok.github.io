@@ -1,20 +1,22 @@
 [
   {
-    "listing": "/topics/quantum-mechanics.html",
+    "listing": "/topics/projects/projects.html",
     "items": []
   },
   {
-    "listing": "/topics/quantum-computing.html",
+    "listing": "/topics/physics/thermal-n-statistical-physics.html",
     "items": []
   },
   {
-    "listing": "/topics/physics.html",
-    "items": [
-      "/posts/double-slit-interference/index.html"
-    ]
+    "listing": "/topics/physics/quantum-information.html",
+    "items": []
   },
   {
-    "listing": "/topics/classical-computing.html",
+    "listing": "/topics/design/design.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/computer-science.html",
     "items": []
   },
   {
@@ -24,15 +26,23 @@
     ]
   },
   {
-    "listing": "/topics/computer-science.html",
+    "listing": "/topics/computer-science/classical-computing.html",
     "items": []
   },
   {
-    "listing": "/topics/programming.html",
+    "listing": "/topics/computer-science/quantum-computing.html",
     "items": []
   },
   {
-    "listing": "/topics/quantum-information.html",
+    "listing": "/topics/physics/physics.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/physics/quantum-mechanics.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/programming/programming.html",
     "items": []
   }
 ]
