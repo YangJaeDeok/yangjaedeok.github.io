@@ -38,6 +38,27 @@ categories: [Computer Science, Quantum Computing]
 
 `main`에 push하면 GitHub Actions가 사이트를 빌드해 `gh-pages` 브랜치로 배포합니다.
 
+## 새 글을 쓸 때
+
+`posts/<폴더 이름>/index.qmd`를 만들고, 머리말에 `giscus-id`를 넣고, 글 맨 아래에 댓글 삽입 줄을 둡니다.
+
+```markdown
+---
+title: "글 제목"
+date: "2026-10-28"
+categories: [Physics, Quantum Information]
+giscus-id: 폴더-이름-그대로
+---
+
+본문
+
+{{< include /_giscus.qmd >}}
+```
+
+- `giscus-id`는 댓글 스레드를 찾는 **고유값**입니다. 처음에는 폴더 이름과 같게 쓰고(소문자, 숫자, 하이픈), **한 번 정하면 바꾸지 않습니다.** 글 제목이나 폴더 이름을 나중에 바꿔도 이 값이 같으면 댓글이 유지됩니다. 이 값은 GitHub Discussions의 `Comments` 카테고리에서 스레드 제목으로 보입니다.
+- 렌더링 전에 `scripts/check-giscus-ids.sh`가 모든 글에 `giscus-id`와 삽입 줄이 있는지, 값이 겹치지 않는지 검사합니다. 어긋나면 빌드가 멈춥니다.
+- 홈의 방명록은 이 방식이 아니라 Quarto 내장 설정(`index.qmd`)을 씁니다.
+
 ## License
 
 - **Source Code**: This blog's source code is licensed under the [MIT License](LICENSE).

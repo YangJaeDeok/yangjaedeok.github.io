@@ -3,6 +3,7 @@ title: "이중 슬릿 간섭 무늬 살펴보기"
 description: "슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글"
 date: "2026-10-27"
 categories: [Physics, Visualization]
+giscus-id: double-slit-interference
 jupyter: python3
 ---
 
@@ -66,3 +67,5 @@ Plot.plot({
   marks: [Plot.lineY(data, { x: "theta", y: "intensity" }), Plot.ruleY([0])],
 })
 ```
+
+{{< include /_giscus.qmd >}}

@@ -1,0 +1,2 @@
+# 글의 댓글은 _giscus.qmd 를 직접 삽입하므로 Quarto 내장 댓글 위젯은 끈다.
+comments: false

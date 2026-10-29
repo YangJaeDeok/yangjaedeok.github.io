@@ -1,0 +1,19 @@
+```{=html}
+<script src="https://giscus.app/client.js"
+  data-repo="YangJaeDeok/yangjaedeok.github.io"
+  data-repo-id="R_kgDOVXhyfg"
+  data-category="Comments"
+  data-category-id="DIC_kwDOVXhyfs4DJ4kU"
+  data-mapping="specific"
+  data-term="{{< meta giscus-id >}}"
+  data-strict="1"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="ko"
+  data-loading="lazy"
+  crossorigin="anonymous"
+  async>
+</script>
+```

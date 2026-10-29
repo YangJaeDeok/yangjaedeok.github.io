@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  pre-render: bash scripts/check-giscus-ids.sh
   render:
     - "*.qmd"
     - "posts/**/*.qmd"
