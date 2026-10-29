@@ -47,7 +47,7 @@ website:
           - text: Quantum Computing
             href: topics/computer-science/quantum-computing.qmd
       - text : Projects
-        href: : topics/projects.qmd
+        href: : topics/projects/projects.qmd
       - text : Design
         href: : topics/design/design.qmd
       - text: Guestbook
