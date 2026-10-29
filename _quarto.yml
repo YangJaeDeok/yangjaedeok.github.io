@@ -12,6 +12,17 @@ date-format: "YYYY-MM-DD"
 website:
   title: "YangJaedeok's Blog"
   site-url: https://yangjaedeok.github.io
+  comments:
+    giscus:
+      repo: YangJaeDeok/yangjaedeok.github.io
+      repo-id: R_kgDOVXhyfg
+      category: Comments
+      category-id: DIC_kwDOVXhyfs4DJ4kU
+      mapping: pathname
+      reactions-enabled: true
+      input-position: top
+      loading: lazy
+      language: ko
   navbar:
     left:
       - text: Physics
@@ -30,6 +41,8 @@ website:
             href: topics/classical-computing.qmd
           - text: Quantum Computing
             href: topics/quantum-computing.qmd
+      - text: Guestbook
+        href: index.html#guestbook
     right:
       - about.qmd
       - icon: github

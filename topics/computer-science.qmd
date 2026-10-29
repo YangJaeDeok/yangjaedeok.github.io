@@ -8,6 +8,7 @@ listing:
   type: default
   fields: [date, title, description, categories]
 page-layout: full
+comments: false
 ---
 
 컴퓨터 과학. 하위 주제: [Classical Computing](classical-computing.qmd), [Quantum Computing](quantum-computing.qmd)

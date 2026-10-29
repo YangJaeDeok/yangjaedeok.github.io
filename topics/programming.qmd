@@ -8,6 +8,7 @@ listing:
   type: default
   fields: [date, title, description, categories]
 page-layout: full
+comments: false
 ---
 
 개인 학습 및 부트캠프, Python, ML, DL, AI.
