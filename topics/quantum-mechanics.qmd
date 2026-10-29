@@ -1,0 +1,16 @@
+---
+title: "Quantum Mechanics"
+listing:
+  contents: "../posts/*/index.qmd"
+  include:
+    categories: "Quantum Mechanics"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+[Physics](physics.qmd)의 하위 주제 - 양자역학(Quantum Mechanics)입니다.
+
+학부와 대학원 수준의 양자역학과 양자물리학 학습한 내용을 정리했습니다.
