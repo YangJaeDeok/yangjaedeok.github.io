@@ -46,10 +46,10 @@ website:
             href: topics/computer-science/classical-computing.qmd
           - text: Quantum Computing
             href: topics/computer-science/quantum-computing.qmd
-      - text : Projects
-        href: : topics/projects/projects.qmd
-      - text : Design
-        href: : topics/design/design.qmd
+      - text: Projects
+        href: topics/projects/projects.qmd
+      - text: Design
+        href: topics/design/design.qmd
       - text: Guestbook
         href: index.html#guestbook
     right:
