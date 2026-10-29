@@ -29,21 +29,27 @@ website:
       - text: Physics
         menu:
           - text: All Physics
-            href: topics/physics.qmd
+            href: topics/physics/physics.qmd
           - text: Quantum Information
-            href: topics/quantum-information.qmd
+            href: topics/physics/quantum-information.qmd
           - text: Quantum Mechanics
-            href: topics/quantum-mechanics.qmd
+            href: topics/physics/quantum-mechanics.qmd
+          - text: Thermal and Statistical Physics
+            href: topics/physics/thermal-n-statistical-physics
       - text: Programming
-        href: topics/programming.qmd
+        href: topics/programming/programming.qmd
       - text: Computer Science
         menu:
           - text: All Computer Science
-            href: topics/computer-science.qmd
+            href: topics/computer-science/computer-science.qmd
           - text: Classical Computing
-            href: topics/classical-computing.qmd
+            href: topics/computer-science/classical-computing.qmd
           - text: Quantum Computing
-            href: topics/quantum-computing.qmd
+            href: topics/computer-science/quantum-computing.qmd
+      - text : Projects
+        href: : topics/projects.qmd
+      - text : Design
+        href: : topics/design/design.qmd
       - text: Guestbook
         href: index.html#guestbook
     right:

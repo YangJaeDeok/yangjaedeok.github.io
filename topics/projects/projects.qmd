@@ -1,0 +1,14 @@
+---
+title: "Projects"
+listing:
+  contents: "../posts/*/index.qmd"
+  include:
+    categories: "Projects"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+개인프로젝트

@@ -1,0 +1,14 @@
+---
+title: "Physics"
+listing:
+  contents: "../posts/*/index.qmd"
+  include:
+    categories: "Physics"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+전공 문제 풀이, 계산과 시뮬레이션, 시각화.
