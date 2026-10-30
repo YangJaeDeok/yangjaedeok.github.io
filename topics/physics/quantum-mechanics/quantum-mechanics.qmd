@@ -1,5 +1,6 @@
 ---
 title: "Quantum Mechanics"
+description: "학부 양자역학과 대학원 양자물리학 수강 및 학습한 내용 정리"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:

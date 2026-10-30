@@ -1,5 +1,6 @@
 ---
 title: "Computer Science"
+description: "컴퓨터 과학"
 listing:
   contents: "../../posts/*/index.qmd"
   include:

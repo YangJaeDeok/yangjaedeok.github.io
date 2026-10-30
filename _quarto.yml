@@ -13,6 +13,10 @@ date-format: "YYYY-MM-DD"
 website:
   title: "The Blog"
   site-url: https://yangjaedeok.github.io
+  description: "nomad @physics @cs — not mad, just curious."
+  open-graph: true
+  twitter-card: true
+  # image: /images/og.png
   page-footer:
     center: "글과 미디어는 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)으로, 소스 코드는 [MIT License](https://github.com/YangJaeDeok/yangjaedeok.github.io/blob/main/LICENSE)로 공개합니다."
   comments:

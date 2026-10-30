@@ -1,5 +1,6 @@
 ---
 title: "HomeLab"
+description: "개인프로젝트 - HomeLab 구축"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:

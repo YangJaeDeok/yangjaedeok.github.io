@@ -1,5 +1,6 @@
 ---
 title: "Programming"
+description: "ㅁㄴㅇㄹ"
 listing:
   contents: "../../posts/*/index.qmd"
   include:

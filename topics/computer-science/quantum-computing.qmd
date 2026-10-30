@@ -1,5 +1,6 @@
 ---
 title: "Quantum Computing"
+description: "Computer Science의 하위 주제 - 양자 컴퓨터(Quantum Computing)"
 listing:
   contents: "../../posts/*/index.qmd"
   include:

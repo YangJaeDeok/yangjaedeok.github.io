@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+description: "개인프로젝트"
 listing:
   contents: "../../posts/*/index.qmd"
   include:

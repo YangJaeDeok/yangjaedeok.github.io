@@ -1,5 +1,6 @@
 ---
 title: "Classical Computing"
+description: "Computer Science의 하위 주제 - 고전 컴퓨터(Classical Computing)"
 listing:
   contents: "../../posts/*/index.qmd"
   include:

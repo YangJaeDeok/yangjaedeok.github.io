@@ -1,5 +1,6 @@
 ---
 title: "Quantum Information"
+description: "Physics의 하위 주제 - 양자정보(Quantum Information)"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:

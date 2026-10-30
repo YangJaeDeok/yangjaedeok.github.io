@@ -1,5 +1,6 @@
 ---
 title: "Thermal and Statistical Physics"
+description: "Physics의 하위 주제 - 열 및 통계 물리학(Thermal and Statistical Physics)"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:

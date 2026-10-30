@@ -1,5 +1,6 @@
 ---
 title: "Physics"
+description: "전공 문제 풀이, 계산과 시뮬레이션, 시각화"
 listing:
   contents: "../../posts/*/index.qmd"
   include:
