@@ -65,6 +65,7 @@ format:
     theme: cosmo
     toc: true
     code-copy: true
+    html-math-method: katex
 
 execute:
   freeze: auto
