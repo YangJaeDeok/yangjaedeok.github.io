@@ -1,7 +1,7 @@
 ---
 title: "Quantum Information"
 listing:
-  contents: "../posts/*/index.qmd"
+  contents: "../../posts/*/index.qmd"
   include:
     categories: "Quantum Information"
   sort: "date desc"
