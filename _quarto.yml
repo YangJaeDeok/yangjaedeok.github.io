@@ -61,7 +61,7 @@ website:
       - text : Design
         href: topics/design/design.qmd
       - text: Guestbook
-        href: index.html#guestbook
+        href: guestbook.qmd
     right:
       - about-me.qmd
       - icon: github

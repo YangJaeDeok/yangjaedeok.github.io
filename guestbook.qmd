@@ -1,0 +1,17 @@
+---
+title: "Guestbook"
+toc: false
+comments:
+  giscus:
+    repo: YangJaeDeok/yangjaedeok.github.io
+    repo-id: R_kgDOVXhyfg
+    category: Guestbook
+    category-id: DIC_kwDOVXhyfs4DJ4lR
+    mapping: pathname
+    reactions-enabled: true
+    input-position: top
+    loading: lazy
+    language: ko
+---
+
+방문 기록이나 인사를 남겨 주세요. GitHub 계정으로 로그인해서 쓸 수 있습니다.

@@ -2,7 +2,6 @@
 title: "The Blog"
 description: "nomad @physics @cs — not mad, just curious."
 listing:
-  id: home-listing
   contents: posts
   sort: "date desc"
   type: default
@@ -11,22 +10,5 @@ listing:
   page-size: 10
 page-layout: full
 title-block-banner: true
-comments:
-  giscus:
-    repo: YangJaeDeok/yangjaedeok.github.io
-    repo-id: R_kgDOVXhyfg
-    category: Guestbook
-    category-id: DIC_kwDOVXhyfs4DJ4lR
-    mapping: pathname
-    reactions-enabled: true
-    input-position: top
-    loading: lazy
-    language: ko
+comments: false
 ---
-
-::: {#home-listing}
-:::
-
-## Guestbook {#guestbook}
-
-방문 기록이나 인사를 남겨 주세요. GitHub 계정으로 로그인해서 쓸 수 있습니다.
