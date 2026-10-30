@@ -11,7 +11,7 @@ lang: ko
 date-format: "YYYY-MM-DD"
 
 website:
-  title: "YangJaedeok's Blog"
+  title: "The Blog"
   site-url: https://yangjaedeok.github.io
   comments:
     giscus:
