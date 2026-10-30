@@ -1,7 +1,7 @@
 ---
 title: "Physics"
 listing:
-  contents: "../posts/*/index.qmd"
+  contents: "../../posts/*/index.qmd"
   include:
     categories: "Physics"
   sort: "date desc"

@@ -11,8 +11,6 @@ listing:
   page-size: 10
 page-layout: full
 title-block-banner: true
-page-footer:
-    center: "글과 미디어는 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)으로, 소스 코드는 [MIT License](https://github.com/YangJaeDeok/yangjaedeok.github.io/blob/main/LICENSE)로 공개합니다."
 comments:
   giscus:
     repo: YangJaeDeok/yangjaedeok.github.io

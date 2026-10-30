@@ -13,6 +13,8 @@ date-format: "YYYY-MM-DD"
 website:
   title: "The Blog"
   site-url: https://yangjaedeok.github.io
+  page-footer:
+    center: "글과 미디어는 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)으로, 소스 코드는 [MIT License](https://github.com/YangJaeDeok/yangjaedeok.github.io/blob/main/LICENSE)로 공개합니다."
   comments:
     giscus:
       repo: YangJaeDeok/yangjaedeok.github.io
@@ -35,7 +37,7 @@ website:
           - text: Quantum Mechanics
             href: topics/physics/quantum-mechanics.qmd
           - text: Thermal and Statistical Physics
-            href: topics/physics/thermal-n-statistical-physics
+            href: topics/physics/thermal-n-statistical-physics.qmd
       - text: Programming
         href: topics/programming/programming.qmd
       - text: Computer Science

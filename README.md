@@ -8,16 +8,22 @@ https://yangjaedeok.github.io
 
 ```
 Physics
-└── Quantum Information
+├── Quantum Information
+├── Quantum Mechanics
+└── Thermal and Statistical Physics
 Programming
 Computer Science
 ├── Classical Computing
 └── Quantum Computing
+Projects
+Design
 ```
 
 - **Physics**: 전공 문제 풀이, 계산과 시뮬레이션, 시각화. 하위는 전공별로 나눕니다.
 - **Programming**: 개인 학습 및 부트캠프, Python, ML, DL, AI
 - **Computer Science**: 컴퓨터 과학. 하위로 고전 컴퓨터와 양자 컴퓨터를 함께 봅니다.
+- **Projects**: 개인 프로젝트
+- **Design**: 디자인
 
 Quarto의 카테고리는 계층이 없는 평면 태그라서, 하위 주제의 글에는 **상위와 하위 카테고리를 모두** 붙입니다.
 
@@ -25,15 +31,19 @@ Quarto의 카테고리는 계층이 없는 평면 태그라서, 하위 주제의
 categories: [Computer Science, Quantum Computing]
 ```
 
-상단 메뉴와 `topics/` 폴더의 목록 페이지가 이 태그를 기준으로 글을 모아 보여 줍니다. 새 하위 주제를 추가하려면 `topics/`에 목록 페이지를 만들고 `_quarto.yml`의 메뉴에 넣습니다.
+상단 메뉴와 `topics/` 폴더의 목록 페이지가 이 태그를 기준으로 글을 모아 보여 줍니다. 새 하위 주제를 추가하려면 `topics/<분류>/`에 목록 페이지를 만들고 `_quarto.yml`의 메뉴에 넣습니다.
+
+- 목록 페이지의 `include` 카테고리 문자열은 글에 붙이는 카테고리와 **철자와 대소문자까지 같아야** 합니다.
+- 목록 페이지는 `topics/<분류>/`처럼 한 단계 깊은 폴더에 있으므로, 글을 찾는 경로는 `contents: "../../posts/*/index.qmd"`로 씁니다. 경로가 틀리면 목록이 에러 없이 비어 보입니다.
+- 메뉴의 `href`에는 `.qmd` 확장자까지 적습니다.
 
 ## 폴더 구성
 
 | 경로 | 역할 |
 | --- | --- |
 | `posts/<슬러그>/index.qmd` | 글 한 편 (글마다 폴더 하나) |
-| `topics/*.qmd` | 카테고리별 글 목록 페이지 |
-| `_quarto.yml` | 사이트 설정, 상단 메뉴 |
+| `topics/<분류>/*.qmd` | 카테고리별 글 목록 페이지 (분류별 하위 폴더) |
+| `_quarto.yml` | 사이트 설정, 상단 메뉴, 푸터 |
 | `_freeze/` | 코드 실행 결과 저장본 (코드가 있는 글을 고치면 `quarto render`로 갱신) |
 
 `main`에 push하면 GitHub Actions가 사이트를 빌드해 `gh-pages` 브랜치로 배포합니다.
