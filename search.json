@@ -56,9 +56,9 @@
     "text": "2. 슬라이더로 바뀌는 그래프 (Observable JS)\n이중 슬릿의 세기 분포는 다음과 같습니다. 방문자의 브라우저에서 계산되므로 슬라이더를 움직이면 바로 갱신됩니다.\nI(\\theta) = \\cos^2\\!\\left(\\frac{\\pi d \\sin\\theta}{\\lambda}\\right)\\left(\\frac{\\sin\\beta}{\\beta}\\right)^2,\\quad \\beta = \\frac{\\pi a \\sin\\theta}{\\lambda}\n\nviewof lam = Inputs.range([400, 700], {value: 550, step: 10, label: \"파장 λ (nm)\"})\nviewof d = Inputs.range([2, 20], {value: 8, step: 0.5, label: \"슬릿 간격 d (µm)\"})\nviewof a = Inputs.range([0.5, 5], {value: 1.5, step: 0.1, label: \"슬릿 너비 a (µm)\"})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata = {\n  const wl = lam / 1000; // µm\n  const sinc2 = (b) =&gt; (Math.abs(b) &lt; 1e-9 ? 1 : (Math.sin(b) / b) ** 2);\n  return d3.range(-0.3, 0.3001, 0.001).map((theta) =&gt; {\n    const s = Math.sin(theta);\n    const beta = (Math.PI * a * s) / wl;\n    const phase = (Math.PI * d * s) / wl;\n    return { theta, intensity: Math.cos(phase) ** 2 * sinc2(beta) };\n  });\n}\n\nPlot.plot({\n  height: 320,\n  x: { label: \"θ (rad)\" },\n  y: { label: \"상대 세기\", domain: [0, 1] },\n  marks: [Plot.lineY(data, { x: \"theta\", y: \"intensity\" }), Plot.ruleY([0])],\n})"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "about",
+    "objectID": "about-me.html",
+    "href": "about-me.html",
+    "title": "about me",
     "section": "",
     "text": "물리, 프로그래밍, 컴퓨터 과학을 공부하며 남기는 기록입니다.\n\nPhysics: 전공 문제 풀이, 계산과 시뮬레이션, 시각화\nProgramming: 개인 학습 및 부트캠프, Python, ML, DL, AI\nComputer Science: 컴퓨터 과학"
   },
