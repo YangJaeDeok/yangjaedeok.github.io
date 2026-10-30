@@ -1,7 +1,7 @@
 ---
 title: "HomeLab"
 listing:
-  contents: "../../posts/*/index.qmd"
+  contents: "../../../posts/*/index.qmd"
   include:
     categories: "HomeLab"
   sort: "date desc"

@@ -1,7 +1,7 @@
 ---
 title: "Thermal and Statistical Physics"
 listing:
-  contents: "../../posts/*/index.qmd"
+  contents: "../../../posts/*/index.qmd"
   include:
     categories: "Thermal and Statistical Physics"
   sort: "date desc"
@@ -11,4 +11,4 @@ page-layout: full
 comments: false
 ---
 
-[Physics](physics.qmd)의 하위 주제 - 열 및 통계 물리학(Thermal and Statistical Physics)
+[Physics](../physics.qmd)의 하위 주제 - 열 및 통계 물리학(Thermal and Statistical Physics)

@@ -1,7 +1,7 @@
 ---
 title: "Quantum Information"
 listing:
-  contents: "../../posts/*/index.qmd"
+  contents: "../../../posts/*/index.qmd"
   include:
     categories: "Quantum Information"
   sort: "date desc"
@@ -11,4 +11,4 @@ page-layout: full
 comments: false
 ---
 
-[Physics](physics.qmd)의 하위 주제입니다. 이 주제의 글에는 `Physics`와 `Quantum Information` 카테고리를 함께 붙입니다.
+[Physics](../physics.qmd)의 하위 주제입니다. 이 주제의 글에는 `Physics`와 `Quantum Information` 카테고리를 함께 붙입니다.
