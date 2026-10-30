@@ -18,23 +18,16 @@ $$z = \frac{\sin r}{r},\quad r = \sqrt{x^2 + y^2}$$
 ```{python}
 #| code-fold: true
 #| label: fig-sinc-surface
-import numpy as np
-import plotly.graph_objects as go
+from surface import make_surface
 
-x = np.linspace(-6, 6, 120)
-y = np.linspace(-6, 6, 120)
-X, Y = np.meshgrid(x, y)
-R = np.hypot(X, Y)
-Z = np.sinc(R / np.pi)  # sin(R) / R
-
-fig = go.Figure(go.Surface(x=X, y=Y, z=Z, colorscale="Viridis"))
-fig.update_layout(
-    height=520,
-    margin=dict(l=0, r=0, t=30, b=0),
-    scene=dict(xaxis_title="x", yaxis_title="y", zaxis_title="sin(r)/r"),
-)
-fig.show()
+make_surface().show()
 ```
+
+::: {.callout-note collapse="true" title="surface.py 전체 코드"}
+```{.python}
+{{< include surface.py >}}
+```
+:::
 
 ## 2. 슬라이더로 바뀌는 그래프 (Observable JS)
 
