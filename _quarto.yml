@@ -55,10 +55,13 @@ website:
       - text: Guestbook
         href: index.html#guestbook
     right:
-      - about.qmd
+      - about-me.qmd
       - icon: github
         href: https://github.com/YangJaeDeok
         aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/yangjaedeok/
+        aria-label: LinkedIn
 
 format:
   html:
