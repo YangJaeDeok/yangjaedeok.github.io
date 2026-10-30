@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-home-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-home-listing'] = new List('listing-home-listing', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -241,7 +241,7 @@ window.Quarto = {
 <span class="menu-text">Design</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#guestbook"> 
+    <a class="nav-link" href="./guestbook.html"> 
 <span class="menu-text">Guestbook</span></a>
   </li>  
 </ul>
@@ -293,13 +293,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">목차</h2>
-   
-  <ul>
-  <li><a href="#guestbook" id="toc-guestbook" class="nav-link active" data-scroll-target="#guestbook">Guestbook</a></li>
-  </ul>
-</nav>
+        
     <h5 class="quarto-listing-category-title">분류</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">전체 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGh5c2ljcw==">Physics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlzdWFsaXphdGlvbg==">Visualization <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
@@ -308,9 +302,13 @@ window.Quarto = {
 
 
 
-<div id="listing-home-listing" class="quarto-listing quarto-listing-container-default">
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UGh5c2ljcyUyQ1Zpc3VhbGl6YXRpb24=" data-listing-date-sort="1793059200000" data-listing-file-modified-sort="1793348081801" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
+<div class="quarto-post image-right" data-index="0" data-categories="UGh5c2ljcyUyQ1Zpc3VhbGl6YXRpb24=" data-listing-date-sort="1793059200000" data-listing-file-modified-sort="1793349781947" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/double-slit-interference/index.html" class="no-external">이중 슬릿 간섭 무늬 살펴보기</a>
@@ -336,16 +334,7 @@ window.Quarto = {
 </div>
 </div>
 <div class="listing-no-matching d-none">일치 없음</div>
-</div>
-<section id="guestbook" class="level2">
-<h2 class="anchored" data-anchor-id="guestbook">Guestbook</h2>
-<p>방문 기록이나 인사를 남겨 주세요. GitHub 계정으로 로그인해서 쓸 수 있습니다.</p>
-
-
-
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -746,35 +735,6 @@ window.Quarto = {
     }
   });
   </script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
-<script>
-  function loadGiscus() {
-    // Function to get the theme based on body class
-    const getTheme = () => {
-      let baseTheme = document.getElementById('giscus-base-theme').value;
-      let altTheme = document.getElementById('giscus-alt-theme').value;
-      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
-    };
-    const script = document.createElement("script");
-    script.src = "https://giscus.app/client.js";
-    script.async = true;
-    script.dataset.repo = "YangJaeDeok/yangjaedeok.github.io";
-    script.dataset.repoId = "R_kgDOVXhyfg";
-    script.dataset.category = "Guestbook";
-    script.dataset.categoryId = "DIC_kwDOVXhyfs4DJ4lR";
-    script.dataset.mapping = "pathname";
-    script.dataset.reactionsEnabled = "1";
-    script.dataset.emitMetadata = "0";
-    script.dataset.inputPosition = "top";
-    script.dataset.theme = getTheme();
-    script.dataset.lang = "ko";
-    script.crossOrigin = "anonymous";
-    // Append the script to the desired div instead of at the end of the body
-    document.getElementById("quarto-content").appendChild(script);
-  }
-  loadGiscus();
-</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
