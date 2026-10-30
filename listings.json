@@ -35,7 +35,9 @@
   },
   {
     "listing": "/topics/physics/physics.html",
-    "items": []
+    "items": [
+      "/posts/double-slit-interference/index.html"
+    ]
   },
   {
     "listing": "/topics/physics/quantum-mechanics.html",
