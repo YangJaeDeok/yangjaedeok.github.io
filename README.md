@@ -2,7 +2,7 @@ github.io 블로그
 
 https://yangjaedeok.github.io
 
-[Quarto](https://quarto.org)로 만든 정적 블로그입니다. 글 안에서 코드 실행 결과, 3D 그래프, 슬라이더로 바뀌는 시각화를 쓸 수 있습니다.
+[Quarto](https://quarto.org)로 만든 정적 블로그입니다. 글 안에서 코드 실행 결과를 직접 확인하며 상호작용할 수 있습니다.
 
 ## 카테고리 구조
 
