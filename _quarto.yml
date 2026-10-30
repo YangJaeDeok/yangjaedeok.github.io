@@ -33,11 +33,11 @@ website:
           - text: All Physics
             href: topics/physics/physics.qmd
           - text: Quantum Information
-            href: topics/physics/quantum-information.qmd
+            href: topics/physics/quantum-information/quantum-information.qmd
           - text: Quantum Mechanics
-            href: topics/physics/quantum-mechanics.qmd
+            href: topics/physics/quantum-mechanics/quantum-mechanics.qmd
           - text: Thermal and Statistical Physics
-            href: topics/physics/thermal-n-statistical-physics.qmd
+            href: topics/physics/thermal-n-statistical-physics/thermal-n-statistical-physics.qmd
       - text: Programming
         href: topics/programming/programming.qmd
       - text: Computer Science
@@ -50,6 +50,9 @@ website:
             href: topics/computer-science/quantum-computing.qmd
       - text : Projects
         href: topics/projects/projects.qmd
+        menu:
+        - text: HomeLab
+          href: topics/projects/homelab/homelab.qmd
       - text : Design
         href: topics/design/design.qmd
       - text: Guestbook

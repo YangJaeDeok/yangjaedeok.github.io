@@ -1,0 +1,14 @@
+---
+title: "HomeLab"
+listing:
+  contents: "../../posts/*/index.qmd"
+  include:
+    categories: "HomeLab"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+개인프로젝트 - HomeLab 구축
