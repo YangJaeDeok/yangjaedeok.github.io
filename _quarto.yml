@@ -6,8 +6,6 @@ project:
     - "*.qmd"
     - "posts/**/*.qmd"
     - "topics/*.qmd"
-  resources:
-    - google25d018dacd9f6424.html
 
 lang: ko
 date-format: "YYYY-MM-DD"
