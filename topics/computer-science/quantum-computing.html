@@ -309,10 +309,13 @@ window.Quarto = {
 <div class="listing-no-matching d-none">일치 없음</div>
 </div></main> <!-- /main -->
 <script>
-  // 푸터의 연도를 방문 시점의 연도로 바꾼다. JS가 꺼져 있으면 빌드 때 적은 연도가 그대로 보인다.
+  // 푸터의 연도를 "시작 연도-올해"로 바꾼다. 시작 연도는 _quarto.yml의 data-start 값이다.
+  // JS가 꺼져 있으면 빌드 때 적은 연도가 그대로 보인다.
   document.addEventListener("DOMContentLoaded", function () {
+    var now = new Date().getFullYear();
     document.querySelectorAll(".js-year").forEach(function (el) {
-      el.textContent = new Date().getFullYear();
+      var start = parseInt(el.dataset.start, 10);
+      el.textContent = start && start < now ? start + "-" + now : String(now);
     });
   });
 </script>
@@ -799,7 +802,7 @@ window.Quarto = {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© Copyright <span class="js-year">2026</span> YangJaeDeok(양재덕)</p>
+<p>© Copyright <span class="js-year" data-start="2022">2022-2026</span> YangJaeDeok(양재덕)</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
