@@ -48,7 +48,7 @@ scripts/           빌드 전 검사
 _freeze/           코드 실행 결과 저장본
 _quarto.yml        사이트 설정, 상단 메뉴, 푸터
 styles.css         푸터를 화면 아래에 고정하는 스타일
-footer-year.html   푸터의 연도를 올해로 바꾸는 스크립트
+footer-year.html   푸터의 연도 범위를 올해까지로 갱신하는 스크립트
 ```
 
 `main`에 push하면 GitHub Actions가 사이트를 빌드해 `gh-pages` 브랜치로 배포합니다.

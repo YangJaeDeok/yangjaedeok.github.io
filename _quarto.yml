@@ -20,7 +20,7 @@ website:
   twitter-card: true
   # image: /images/og.png
   page-footer:
-    center: "© Copyright [2026]{.js-year} YangJaeDeok(양재덕)"
+    center: "© Copyright [2022-2026]{.js-year data-start=2022} YangJaeDeok(양재덕)"
   comments:
     giscus:
       repo: YangJaeDeok/yangjaedeok.github.io
