@@ -20,7 +20,7 @@ website:
   twitter-card: true
   # image: /images/og.png
   page-footer:
-    center: "글과 미디어는 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)으로, 소스 코드는 [MIT License](https://github.com/YangJaeDeok/yangjaedeok.github.io/blob/main/LICENSE)로 공개합니다."
+    center: "© Copyright [2026]{.js-year} YangJaeDeok(양재덕)"
   comments:
     giscus:
       repo: YangJaeDeok/yangjaedeok.github.io
@@ -76,6 +76,8 @@ website:
 format:
   html:
     theme: cosmo
+    css: styles.css
+    include-after-body: footer-year.html
     toc: true
     code-copy: true
     html-math-method: katex

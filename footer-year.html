@@ -1,0 +1,8 @@
+<script>
+  // 푸터의 연도를 방문 시점의 연도로 바꾼다. JS가 꺼져 있으면 빌드 때 적은 연도가 그대로 보인다.
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".js-year").forEach(function (el) {
+      el.textContent = new Date().getFullYear();
+    });
+  });
+</script>

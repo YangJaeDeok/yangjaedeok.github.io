@@ -47,6 +47,8 @@ lib/               공용 파이썬 코드 (필요할 때 만듦)
 scripts/           빌드 전 검사
 _freeze/           코드 실행 결과 저장본
 _quarto.yml        사이트 설정, 상단 메뉴, 푸터
+styles.css         푸터를 화면 아래에 고정하는 스타일
+footer-year.html   푸터의 연도를 올해로 바꾸는 스크립트
 ```
 
 `main`에 push하면 GitHub Actions가 사이트를 빌드해 `gh-pages` 브랜치로 배포합니다.
@@ -87,4 +89,4 @@ lib/                           여러 글이 같이 쓰는 코드 (필요할 때
 ## License
 
 - **Source Code**: This blog's source code is licensed under the [MIT License](LICENSE).
-- **Content & Articles**: All written posts, articles, and media are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org).
+- **Content & Articles**: All written posts, articles, and media are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
