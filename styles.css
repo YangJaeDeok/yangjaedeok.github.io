@@ -1,0 +1,35 @@
+/* 푸터를 화면 아래에 고정한다. 긴 페이지에서도 항상 보인다. */
+.nav-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  min-height: 0;
+  padding: 0.35rem 1rem;
+  font-size: 0.75rem;
+  background-color: var(--bs-body-bg, #fff);
+  border-top: 1px solid var(--bs-border-color, #dee2e6);
+}
+
+.nav-footer p {
+  margin: 0;
+}
+
+/* 왼쪽과 오른쪽 칸은 비어 있다. 좁은 화면에서 세로로 쌓여 높이만 키우므로 숨긴다. */
+.nav-footer-left,
+.nav-footer-right {
+  display: none;
+}
+
+.nav-footer-center {
+  flex: 1;
+  min-height: 0;
+  margin: 0;
+  font-size: 1em;
+}
+
+/* 고정된 푸터가 본문 맨 아래를 가리지 않도록 여백을 둔다. */
+body {
+  padding-bottom: 2.5rem;
+}
