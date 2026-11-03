@@ -96,8 +96,8 @@ website:
             href: topics/projects/projects.qmd
           - text: HomeLab
             href: topics/projects/homelab/homelab.qmd
-      - text : Design
-        href: topics/design/design.qmd
+          - text: Design
+            href: topics/projects/design/design.qmd
       - text: Guestbook
         href: guestbook.qmd
     right:

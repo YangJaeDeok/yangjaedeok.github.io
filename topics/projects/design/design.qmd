@@ -1,8 +1,8 @@
 ---
 title: "Design"
-description: "ㅁㄴㅇㄹ"
+description: "개인프로젝트 - 디자인(로고 제작 과정과 결과물)"
 listing:
-  contents: "../../posts/*/index.qmd"
+  contents: "../../../posts/*/index.qmd"
   include:
     categories: "Design"
   sort: "date desc"
@@ -12,4 +12,4 @@ page-layout: full
 comments: false
 ---
 
-디자인
+개인프로젝트 - 디자인(로고 제작 과정과 결과물)
