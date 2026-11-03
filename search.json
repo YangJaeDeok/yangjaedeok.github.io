@@ -46,14 +46,14 @@
     "href": "topics/physics/electromagnetism/electromagnetism.html",
     "title": "Electromagnetism",
     "section": "",
-    "text": "Physics의 하위 주제 - 전자기학(Electromagnetism)\n물리학의 4대 역학(Core Courses) 중 하나입니다. 이 주제의 글에는 Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제 - 전자기학(Electromagnetism)\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
     "objectID": "topics/physics/classical-mechanics/classical-mechanics.html",
     "href": "topics/physics/classical-mechanics/classical-mechanics.html",
     "title": "Classical Mechanics",
     "section": "",
-    "text": "Physics의 하위 주제 - 고전역학(Classical Mechanics)\n물리학의 4대 역학(Core Courses) 중 하나입니다. 이 주제의 글에는 Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제 - 고전역학(Classical Mechanics)\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
     "objectID": "topics/design/design.html",
@@ -63,11 +63,46 @@
     "text": "디자인\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
+    "objectID": "topics/computer-science/software-engineering.html",
+    "href": "topics/computer-science/software-engineering.html",
+    "title": "Software Engineering",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Software Engineering 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/computer-science/programming-languages-and-compilers.html",
+    "href": "topics/computer-science/programming-languages-and-compilers.html",
+    "title": "Programming Languages and Compilers",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Programming Languages and Compilers 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/computer-science/information-security.html",
+    "href": "topics/computer-science/information-security.html",
+    "title": "Information Security",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Information Security 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/computer-science/databases.html",
+    "href": "topics/computer-science/databases.html",
+    "title": "Databases",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Databases 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
     "objectID": "topics/computer-science/computer-science.html",
     "href": "topics/computer-science/computer-science.html",
     "title": "Computer Science",
     "section": "",
-    "text": "컴퓨터 과학. 하위 주제: Classical Computing, Quantum Computing\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "컴퓨터 과학. 하위 주제: Discrete Mathematics, Data Structures and Algorithms, Computer Architecture, Operating Systems, Computer Networks, Databases, Theory of Computation, Programming Languages and Compilers, Software Engineering, Information Security, Classical Computing, Quantum Computing\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/computer-science/computer-architecture.html",
+    "href": "topics/computer-science/computer-architecture.html",
+    "title": "Computer Architecture",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Computer Architecture 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
     "objectID": "posts/double-slit-interference/index.html",
@@ -147,11 +182,46 @@
     "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Classical Computing 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
+    "objectID": "topics/computer-science/computer-networks.html",
+    "href": "topics/computer-science/computer-networks.html",
+    "title": "Computer Networks",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Computer Networks 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/computer-science/data-structures-and-algorithms.html",
+    "href": "topics/computer-science/data-structures-and-algorithms.html",
+    "title": "Data Structures and Algorithms",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Data Structures and Algorithms 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/computer-science/discrete-mathematics.html",
+    "href": "topics/computer-science/discrete-mathematics.html",
+    "title": "Discrete Mathematics",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Discrete Mathematics 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/computer-science/operating-systems.html",
+    "href": "topics/computer-science/operating-systems.html",
+    "title": "Operating Systems",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Operating Systems 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
     "objectID": "topics/computer-science/quantum-computing.html",
     "href": "topics/computer-science/quantum-computing.html",
     "title": "Quantum Computing",
     "section": "",
     "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Quantum Computing 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/computer-science/theory-of-computation.html",
+    "href": "topics/computer-science/theory-of-computation.html",
+    "title": "Theory of Computation",
+    "section": "",
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Theory of Computation 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
     "objectID": "topics/physics/astrophysics-n-cosmology/astrophysics-n-cosmology.html",
@@ -193,14 +263,14 @@
     "href": "topics/physics/quantum-mechanics/quantum-mechanics.html",
     "title": "Quantum Mechanics",
     "section": "",
-    "text": "&lt;양자역학에 대한 설명&gt;\n이 블로그에서 벌어지는 일:\n\n학부 양자역학 및 대학원 양자물리학 전공 개념 정리\n컴퓨팅이 필요한 전공 문제 구현\n\n물리학의 4대 역학(Core Courses) 중 하나입니다. 이 주제의 글에는 Core Courses 카테고리도 함께 붙입니다.\n참고문헌\n\nGriffiths, D. J., & Schroeter, D. F. (2018). Introduction to quantum mechanics (3rd ed.). Cambridge University Press.\nSakurai, J. J., & Napolitano, J. (2020). Modern quantum mechanics (3rd ed.). Cambridge University Press.\nFitzpatrick, R. (2015). Quantum mechanics. World Scientific Publishing Company.\n\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "&lt;양자역학에 대한 설명&gt;\n이 블로그에서 벌어지는 일:\n\n학부 양자역학 및 대학원 양자물리학 전공 개념 정리\n컴퓨팅이 필요한 전공 문제 구현\n\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n참고문헌\n\nGriffiths, D. J., & Schroeter, D. F. (2018). Introduction to quantum mechanics (3rd ed.). Cambridge University Press.\nSakurai, J. J., & Napolitano, J. (2020). Modern quantum mechanics (3rd ed.). Cambridge University Press.\nFitzpatrick, R. (2015). Quantum mechanics. World Scientific Publishing Company.\n\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
     "objectID": "topics/physics/thermal-n-statistical-physics/thermal-n-statistical-physics.html",
     "href": "topics/physics/thermal-n-statistical-physics/thermal-n-statistical-physics.html",
     "title": "Thermal and Statistical Physics",
     "section": "",
-    "text": "&lt;열 및 통계 물리학에 대한 설명&gt;\n물리학의 4대 역학(Core Courses) 중 하나입니다. 이 주제의 글에는 Core Courses 카테고리도 함께 붙입니다.\n참고문헌\n\nBlundell, S. J., & Blundell, K. M. (2009). Concepts in thermal physics (2nd ed.). Oxford University Press.\n\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "&lt;열 및 통계 물리학에 대한 설명&gt;\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n참고문헌\n\nBlundell, S. J., & Blundell, K. M. (2009). Concepts in thermal physics (2nd ed.). Oxford University Press.\n\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
     "objectID": "topics/projects/homelab/homelab.html",

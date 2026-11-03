@@ -36,7 +36,27 @@
     "items": []
   },
   {
+    "listing": "/topics/computer-science/software-engineering.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/programming-languages-and-compilers.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/information-security.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/databases.html",
+    "items": []
+  },
+  {
     "listing": "/topics/computer-science/computer-science.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/computer-architecture.html",
     "items": []
   },
   {
@@ -50,7 +70,27 @@
     "items": []
   },
   {
+    "listing": "/topics/computer-science/computer-networks.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/data-structures-and-algorithms.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/discrete-mathematics.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/operating-systems.html",
+    "items": []
+  },
+  {
     "listing": "/topics/computer-science/quantum-computing.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/theory-of-computation.html",
     "items": []
   },
   {
