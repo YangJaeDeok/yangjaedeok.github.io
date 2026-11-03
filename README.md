@@ -15,9 +15,9 @@ Physics
 ├── Quantum Mechanics
 ├── Thermal and Statistical Physics
 ├── Optics
-├── Relativity
+├── Relativity and Cosmology
 ├── Particle Physics
-├── Astrophysics and Cosmology
+├── Astrophysics
 ├── Computational Physics
 └── Quantum Information
 Programming

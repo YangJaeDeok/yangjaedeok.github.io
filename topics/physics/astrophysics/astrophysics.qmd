@@ -1,10 +1,10 @@
 ---
-title: "Relativity"
-description: "상대론"
+title: "Astrophysics"
+description: "천체물리학"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:
-    categories: "Relativity"
+    categories: "Astrophysics"
   sort: "date desc"
   type: default
   fields: [date, title, description, categories]
@@ -12,4 +12,4 @@ page-layout: full
 comments: false
 ---
 
-[Physics](../physics.qmd)의 하위 주제 - 상대론(Relativity)
+[Physics](../physics.qmd)의 하위 주제 - 천체물리학(Astrophysics)

@@ -50,12 +50,12 @@ website:
             href: topics/physics/thermal-n-statistical-physics/thermal-n-statistical-physics.qmd
           - text: Optics
             href: topics/physics/optics/optics.qmd
-          - text: Relativity
-            href: topics/physics/relativity/relativity.qmd
+          - text: Relativity and Cosmology
+            href: topics/physics/relativity-n-cosmology/relativity-n-cosmology.qmd
           - text: Particle Physics
             href: topics/physics/particle-physics/particle-physics.qmd
-          - text: Astrophysics and Cosmology
-            href: topics/physics/astrophysics-n-cosmology/astrophysics-n-cosmology.qmd
+          - text: Astrophysics
+            href: topics/physics/astrophysics/astrophysics.qmd
           - text: Computational Physics
             href: topics/physics/computational-physics/computational-physics.qmd
           - text: Quantum Information
