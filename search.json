@@ -18,14 +18,14 @@
     "href": "topics/physics/quantum-mechanics/quantum-mechanics.html",
     "title": "Quantum Mechanics",
     "section": "",
-    "text": "Physics의 하위 주제 - 양자역학(Quantum Mechanics)\n학부 양자역학과 대학원 양자물리학 수강 및 학습한 내용 정리\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "&lt;양자역학에 대한 설명&gt;\n이 블로그에서 벌어지는 일:\n\n학부 양자역학 및 대학원 양자물리학 전공 개념 정리\n컴퓨팅이 필요한 전공 문제 구현\n\n참고문헌\n\nGriffiths, D. J., & Schroeter, D. F. (2018). Introduction to quantum mechanics (3rd ed.). Cambridge University Press.\nSakurai, J. J., & Napolitano, J. (2020). Modern quantum mechanics (3rd ed.). Cambridge University Press.\nFitzpatrick, R. (2015). Quantum mechanics. World Scientific Publishing Company.\n\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
     "objectID": "topics/physics/physics.html",
     "href": "topics/physics/physics.html",
     "title": "Physics",
     "section": "",
-    "text": "전공 문제 풀이, 계산과 시뮬레이션, 시각화.\n\n\n\n\n\n\n\n\n\n이중 슬릿 간섭 무늬 살펴보기\n\n\n\nPhysics\n\nVisualization\n\n\n\n\n슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글\n\n\n\n\n\n\n2026-10-27\n\n\n\n\n\n일치 없음"
+    "text": "&lt;물리학에 대한 설명&gt;\n이 블로그에서 벌어지는 일:\n\n관련 전공 지식 설명\n일부 문제 풀이\n전산 시뮬레이션 구현\n\n\n\n\n\n\n\n\n\n\n이중 슬릿 간섭 무늬 살펴보기\n\n\n\nPhysics\n\nVisualization\n\n\n\n\n슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글\n\n\n\n\n\n\n2026-10-27\n\n\n\n\n\n일치 없음"
   },
   {
     "objectID": "topics/computer-science/quantum-computing.html",
@@ -137,7 +137,7 @@
     "href": "topics/physics/thermal-n-statistical-physics/thermal-n-statistical-physics.html",
     "title": "Thermal and Statistical Physics",
     "section": "",
-    "text": "Physics의 하위 주제 - 열 및 통계 물리학(Thermal and Statistical Physics)\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "&lt;열 및 통계 물리학에 대한 설명&gt;\n참고문헌\n\nBlundell, S. J., & Blundell, K. M. (2009). Concepts in thermal physics (2nd ed.). Oxford University Press.\n\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
     "objectID": "topics/projects/homelab/homelab.html",
