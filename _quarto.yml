@@ -36,12 +36,12 @@ website:
         menu:
           - text: All Physics
             href: topics/physics/physics.qmd
+          - text: Thermal and Statistical Physics
+            href: topics/physics/thermal-n-statistical-physics/thermal-n-statistical-physics.qmd
           - text: Quantum Information
             href: topics/physics/quantum-information/quantum-information.qmd
           - text: Quantum Mechanics
             href: topics/physics/quantum-mechanics/quantum-mechanics.qmd
-          - text: Thermal and Statistical Physics
-            href: topics/physics/thermal-n-statistical-physics/thermal-n-statistical-physics.qmd
       - text: Programming
         href: topics/programming/programming.qmd
       - text: Computer Science

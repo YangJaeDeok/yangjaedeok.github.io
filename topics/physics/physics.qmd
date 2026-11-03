@@ -1,6 +1,6 @@
 ---
 title: "Physics"
-description: "전공 문제 풀이, 계산과 시뮬레이션, 시각화"
+description: "물리학."
 listing:
   contents: "../../posts/*/index.qmd"
   include:
@@ -12,4 +12,12 @@ page-layout: full
 comments: false
 ---
 
-전공 문제 풀이, 계산과 시뮬레이션, 시각화.
+\<물리학에 대한 설명\>
+
+이 블로그에서 벌어지는 일:
+
+- 관련 전공 지식 설명
+
+- 일부 문제 풀이
+
+- 전산 시뮬레이션 구현
