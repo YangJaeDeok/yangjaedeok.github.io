@@ -98,6 +98,8 @@ website:
             href: topics/projects/homelab/homelab.qmd
           - text: Design
             href: topics/projects/design/design.qmd
+          - text: Korean History
+            href: topics/projects/korean-history/korean-history.qmd
       - text: Guestbook
         href: guestbook.qmd
     right:

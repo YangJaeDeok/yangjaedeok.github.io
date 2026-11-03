@@ -1,0 +1,15 @@
+---
+title: "Korean History"
+description: "한국사"
+listing:
+  contents: "../../../posts/*/index.qmd"
+  include:
+    categories: "Korean History"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+한국사 공부
