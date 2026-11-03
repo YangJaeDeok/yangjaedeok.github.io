@@ -13,3 +13,7 @@ comments: false
 ---
 
 [Physics](../physics.qmd)의 하위 주제 - 상대론과 우주론(Relativity and Cosmology)
+
+참고문헌
+
+- Baumann, D. (2022). *Cosmology*. Cambridge University Press.

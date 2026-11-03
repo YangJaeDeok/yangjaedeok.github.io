@@ -13,3 +13,7 @@ comments: false
 ---
 
 [Physics](../physics.qmd)의 하위 주제 - 입자물리학(Particle Physics)
+
+참고문헌
+
+- Tong, D. (2009). [*Particle physics*](https://davidtong.org/pdfs/teaching/particle-physics/pp.pdf) \[Lecture notes\]. CERN Summer School. DAMTP, University of Cambridge.
