@@ -7,130 +7,116 @@
     "text": "개인프로젝트\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/projects/design/design.html",
-    "href": "topics/projects/design/design.html",
-    "title": "Design",
+    "objectID": "topics/projects/homelab/homelab.html",
+    "href": "topics/projects/homelab/homelab.html",
+    "title": "HomeLab",
     "section": "",
-    "text": "개인프로젝트 - 디자인(로고 제작 과정과 결과물)\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "개인프로젝트 - HomeLab 구축\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/thermal-n-statistical-physics/thermal-n-statistical-physics.html",
-    "href": "topics/physics/thermal-n-statistical-physics/thermal-n-statistical-physics.html",
-    "title": "Thermal and Statistical Physics",
+    "objectID": "topics/programming/programming.html",
+    "href": "topics/programming/programming.html",
+    "title": "Programming",
     "section": "",
-    "text": "&lt;열 및 통계 물리학에 대한 설명&gt;\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n참고문헌\n\nBlundell, S. J., & Blundell, K. M. (2009). Concepts in thermal physics (2nd ed.). Oxford University Press.\n\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "개인 학습 및 부트캠프, Python, ML, DL, AI.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/quantum-mechanics/quantum-mechanics.html",
-    "href": "topics/physics/quantum-mechanics/quantum-mechanics.html",
-    "title": "Quantum Mechanics",
+    "objectID": "topics/physics/relativity-n-cosmology/relativity-n-cosmology.html",
+    "href": "topics/physics/relativity-n-cosmology/relativity-n-cosmology.html",
+    "title": "Relativity and Cosmology",
     "section": "",
-    "text": "&lt;양자역학에 대한 설명&gt;\n이 블로그에서 벌어지는 일:\n\n학부 양자역학 및 대학원 양자물리학 전공 개념 정리\n컴퓨팅이 필요한 전공 문제 구현\n\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n참고문헌\n\nGriffiths, D. J., & Schroeter, D. F. (2018). Introduction to quantum mechanics (3rd ed.). Cambridge University Press.\nSakurai, J. J., & Napolitano, J. (2020). Modern quantum mechanics (3rd ed.). Cambridge University Press.\nFitzpatrick, R. (2015). Quantum mechanics. World Scientific Publishing Company.\n\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제 - 상대론과 우주론(Relativity and Cosmology)\n참고문헌\n\nBaumann, D. (2022). Cosmology. Cambridge University Press.\n\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/physics.html",
-    "href": "topics/physics/physics.html",
-    "title": "Physics",
+    "objectID": "topics/physics/quantum-information/quantum-information.html",
+    "href": "topics/physics/quantum-information/quantum-information.html",
+    "title": "Quantum Information",
     "section": "",
-    "text": "&lt;물리학에 대한 설명&gt;\n이 블로그에서 벌어지는 일:\n\n관련 전공 지식 설명\n일부 문제 풀이\n전산 시뮬레이션 구현\n\n\n\n\n\n\n\n\n\n\n이중 슬릿 간섭 무늬 살펴보기\n\n\n\nPhysics\n\nVisualization\n\n\n\n\n슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글\n\n\n\n\n\n\n2026-10-27\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제입니다. 이 주제의 글에는 Physics와 Quantum Information 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/optics/optics.html",
-    "href": "topics/physics/optics/optics.html",
-    "title": "Optics",
+    "objectID": "topics/physics/particle-physics/particle-physics.html",
+    "href": "topics/physics/particle-physics/particle-physics.html",
+    "title": "Particle Physics",
     "section": "",
-    "text": "Physics의 하위 주제 - 광학(Optics)\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제 - 입자물리학(Particle Physics)\n참고문헌\n\nTong, D. (2009). Particle physics [Lecture notes]. CERN Summer School. DAMTP, University of Cambridge.\n\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/introductory-physics/introductory-physics.html",
-    "href": "topics/physics/introductory-physics/introductory-physics.html",
-    "title": "Introductory Physics",
+    "objectID": "topics/physics/mathematical-physics/mathematical-physics.html",
+    "href": "topics/physics/mathematical-physics/mathematical-physics.html",
+    "title": "Mathematical Physics",
     "section": "",
-    "text": "Physics의 하위 주제 - 물리학 입문(Introductory Physics)\n하고 싶은게 할게 없다면 -&gt; 닥치고 물리학과로\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제 - 수리물리학(Mathematical Physics)\n참고문헌\n\nBoas, M. L. (2006). Mathematical methods in the physical sciences (3rd ed.). John Wiley & Sons.\n\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/computational-physics/computational-physics.html",
-    "href": "topics/physics/computational-physics/computational-physics.html",
-    "title": "Computational Physics",
+    "objectID": "topics/physics/electromagnetism/electromagnetism.html",
+    "href": "topics/physics/electromagnetism/electromagnetism.html",
+    "title": "Electromagnetism",
     "section": "",
-    "text": "Physics의 하위 주제 - 전산물리학(Computational Physics)\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제 - 전자기학(Electromagnetism)\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/astrophysics/astrophysics.html",
-    "href": "topics/physics/astrophysics/astrophysics.html",
-    "title": "Astrophysics",
+    "objectID": "topics/physics/classical-mechanics/classical-mechanics.html",
+    "href": "topics/physics/classical-mechanics/classical-mechanics.html",
+    "title": "Classical Mechanics",
     "section": "",
-    "text": "Physics의 하위 주제 - 천체물리학(Astrophysics)\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제 - 고전역학(Classical Mechanics)\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/computer-science/software-engineering.html",
-    "href": "topics/computer-science/software-engineering.html",
-    "title": "Software Engineering",
+    "objectID": "topics/computer-science/theory-of-computation.html",
+    "href": "topics/computer-science/theory-of-computation.html",
+    "title": "Theory of Computation",
     "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Software Engineering 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Theory of Computation 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/computer-science/programming-languages-and-compilers.html",
-    "href": "topics/computer-science/programming-languages-and-compilers.html",
-    "title": "Programming Languages and Compilers",
+    "objectID": "topics/computer-science/quantum-computing.html",
+    "href": "topics/computer-science/quantum-computing.html",
+    "title": "Quantum Computing",
     "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Programming Languages and Compilers 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Quantum Computing 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/computer-science/information-security.html",
-    "href": "topics/computer-science/information-security.html",
-    "title": "Information Security",
+    "objectID": "topics/computer-science/operating-systems.html",
+    "href": "topics/computer-science/operating-systems.html",
+    "title": "Operating Systems",
     "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Information Security 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Operating Systems 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/computer-science/databases.html",
-    "href": "topics/computer-science/databases.html",
-    "title": "Databases",
+    "objectID": "topics/computer-science/discrete-mathematics.html",
+    "href": "topics/computer-science/discrete-mathematics.html",
+    "title": "Discrete Mathematics",
     "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Databases 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Discrete Mathematics 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/computer-science/computer-science.html",
-    "href": "topics/computer-science/computer-science.html",
-    "title": "Computer Science",
+    "objectID": "topics/computer-science/data-structures-and-algorithms.html",
+    "href": "topics/computer-science/data-structures-and-algorithms.html",
+    "title": "Data Structures and Algorithms",
     "section": "",
-    "text": "컴퓨터 과학. 하위 주제: Discrete Mathematics, Data Structures and Algorithms, Computer Architecture, Operating Systems, Computer Networks, Databases, Theory of Computation, Programming Languages and Compilers, Software Engineering, Information Security, Classical Computing, Quantum Computing\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Data Structures and Algorithms 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/computer-science/computer-architecture.html",
-    "href": "topics/computer-science/computer-architecture.html",
-    "title": "Computer Architecture",
+    "objectID": "topics/computer-science/computer-networks.html",
+    "href": "topics/computer-science/computer-networks.html",
+    "title": "Computer Networks",
     "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Computer Architecture 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Computer Networks 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "posts/double-slit-interference/index.html",
-    "href": "posts/double-slit-interference/index.html",
-    "title": "이중 슬릿 간섭 무늬 살펴보기",
+    "objectID": "topics/computer-science/classical-computing.html",
+    "href": "topics/computer-science/classical-computing.html",
+    "title": "Classical Computing",
     "section": "",
-    "text": "이 글은 블로그에서 쓸 수 있는 두 가지 상호작용 방식을 확인하기 위한 예시입니다."
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Classical Computing 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "posts/double-slit-interference/index.html#d-그래프-plotly",
-    "href": "posts/double-slit-interference/index.html#d-그래프-plotly",
-    "title": "이중 슬릿 간섭 무늬 살펴보기",
-    "section": "1. 3D 그래프 (Plotly)",
-    "text": "1. 3D 그래프 (Plotly)\nz = \\frac{\\sin r}{r},\\quad r = \\sqrt{x^2 + y^2}\n그래프를 마우스로 돌리고 확대해 볼 수 있습니다. 이 그래프는 빌드할 때 Python으로 한 번 계산됩니다.\n\n\n코드\nfrom surface import make_surface\n\nmake_surface().show()\n\n\n\n\n                            \n                                            \n\n\n그림 1\n\n\n\n\n\n\n\n\n\n\n노트surface.py 전체 코드\n\n\n\n\n\nimport numpy as np\nimport plotly.graph_objects as go\n\n\ndef make_surface(n=120, extent=6):\n    x = np.linspace(-extent, extent, n)\n    y = np.linspace(-extent, extent, n)\n    X, Y = np.meshgrid(x, y)\n    R = np.hypot(X, Y)\n    Z = np.sinc(R / np.pi)  # sin(R) / R\n\n    fig = go.Figure(go.Surface(x=X, y=Y, z=Z, colorscale=\"Viridis\"))\n    fig.update_layout(\n        height=520,\n        margin=dict(l=0, r=0, t=30, b=0),\n        scene=dict(xaxis_title=\"x\", yaxis_title=\"y\", zaxis_title=\"sin(r)/r\"),\n    )\n    return fig"
-  },
-  {
-    "objectID": "posts/double-slit-interference/index.html#슬라이더로-바뀌는-그래프-observable-js",
-    "href": "posts/double-slit-interference/index.html#슬라이더로-바뀌는-그래프-observable-js",
-    "title": "이중 슬릿 간섭 무늬 살펴보기",
-    "section": "2. 슬라이더로 바뀌는 그래프 (Observable JS)",
-    "text": "2. 슬라이더로 바뀌는 그래프 (Observable JS)\n이중 슬릿의 세기 분포는 다음과 같습니다. 방문자의 브라우저에서 계산되므로 슬라이더를 움직이면 바로 갱신됩니다.\nI(\\theta) = \\cos^2\\!\\left(\\frac{\\pi d \\sin\\theta}{\\lambda}\\right)\\left(\\frac{\\sin\\beta}{\\beta}\\right)^2,\\quad \\beta = \\frac{\\pi a \\sin\\theta}{\\lambda}\n\nviewof lam = Inputs.range([400, 700], {value: 550, step: 10, label: \"파장 λ (nm)\"})\nviewof d = Inputs.range([2, 20], {value: 8, step: 0.5, label: \"슬릿 간격 d (µm)\"})\nviewof a = Inputs.range([0.5, 5], {value: 1.5, step: 0.1, label: \"슬릿 너비 a (µm)\"})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata = {\n  const wl = lam / 1000; // µm\n  const sinc2 = (b) =&gt; (Math.abs(b) &lt; 1e-9 ? 1 : (Math.sin(b) / b) ** 2);\n  return d3.range(-0.3, 0.3001, 0.001).map((theta) =&gt; {\n    const s = Math.sin(theta);\n    const beta = (Math.PI * a * s) / wl;\n    const phase = (Math.PI * d * s) / wl;\n    return { theta, intensity: Math.cos(phase) ** 2 * sinc2(beta) };\n  });\n}\n\nPlot.plot({\n  height: 320,\n  x: { label: \"θ (rad)\" },\n  y: { label: \"상대 세기\", domain: [0, 1] },\n  marks: [Plot.lineY(data, { x: \"theta\", y: \"intensity\" }), Plot.ruleY([0])],\n})"
-  },
-  {
-    "objectID": "guestbook.html",
-    "href": "guestbook.html",
-    "title": "Guestbook",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Blog",
     "section": "",
-    "text": "방문 기록이나 인사를 남겨 주세요. GitHub 계정으로 로그인해서 쓸 수 있습니다."
+    "text": "이중 슬릿 간섭 무늬 살펴보기\n\n\n\nPhysics\n\nVisualization\n\n\n\n\n슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글\n\n\n\n\n\n\n2026-10-27\n\n\n\n\n\n일치 없음"
   },
   {
     "objectID": "about-me.html",
@@ -168,115 +154,136 @@
     "text": "Outside work"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The Blog",
+    "objectID": "guestbook.html",
+    "href": "guestbook.html",
+    "title": "Guestbook",
     "section": "",
-    "text": "이중 슬릿 간섭 무늬 살펴보기\n\n\n\nPhysics\n\nVisualization\n\n\n\n\n슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글\n\n\n\n\n\n\n2026-10-27\n\n\n\n\n\n일치 없음"
+    "text": "방문 기록이나 인사를 남겨 주세요. GitHub 계정으로 로그인해서 쓸 수 있습니다."
   },
   {
-    "objectID": "topics/computer-science/classical-computing.html",
-    "href": "topics/computer-science/classical-computing.html",
-    "title": "Classical Computing",
+    "objectID": "posts/double-slit-interference/index.html",
+    "href": "posts/double-slit-interference/index.html",
+    "title": "이중 슬릿 간섭 무늬 살펴보기",
     "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Classical Computing 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "이 글은 블로그에서 쓸 수 있는 두 가지 상호작용 방식을 확인하기 위한 예시입니다."
   },
   {
-    "objectID": "topics/computer-science/computer-networks.html",
-    "href": "topics/computer-science/computer-networks.html",
-    "title": "Computer Networks",
-    "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Computer Networks 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "objectID": "posts/double-slit-interference/index.html#d-그래프-plotly",
+    "href": "posts/double-slit-interference/index.html#d-그래프-plotly",
+    "title": "이중 슬릿 간섭 무늬 살펴보기",
+    "section": "1. 3D 그래프 (Plotly)",
+    "text": "1. 3D 그래프 (Plotly)\nz = \\frac{\\sin r}{r},\\quad r = \\sqrt{x^2 + y^2}\n그래프를 마우스로 돌리고 확대해 볼 수 있습니다. 이 그래프는 빌드할 때 Python으로 한 번 계산됩니다.\n\n\n코드\nfrom surface import make_surface\n\nmake_surface().show()\n\n\n\n\n                            \n                                            \n\n\n그림 1\n\n\n\n\n\n\n\n\n\n\n노트surface.py 전체 코드\n\n\n\n\n\nimport numpy as np\nimport plotly.graph_objects as go\n\n\ndef make_surface(n=120, extent=6):\n    x = np.linspace(-extent, extent, n)\n    y = np.linspace(-extent, extent, n)\n    X, Y = np.meshgrid(x, y)\n    R = np.hypot(X, Y)\n    Z = np.sinc(R / np.pi)  # sin(R) / R\n\n    fig = go.Figure(go.Surface(x=X, y=Y, z=Z, colorscale=\"Viridis\"))\n    fig.update_layout(\n        height=520,\n        margin=dict(l=0, r=0, t=30, b=0),\n        scene=dict(xaxis_title=\"x\", yaxis_title=\"y\", zaxis_title=\"sin(r)/r\"),\n    )\n    return fig"
   },
   {
-    "objectID": "topics/computer-science/data-structures-and-algorithms.html",
-    "href": "topics/computer-science/data-structures-and-algorithms.html",
-    "title": "Data Structures and Algorithms",
-    "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Data Structures and Algorithms 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "objectID": "posts/double-slit-interference/index.html#슬라이더로-바뀌는-그래프-observable-js",
+    "href": "posts/double-slit-interference/index.html#슬라이더로-바뀌는-그래프-observable-js",
+    "title": "이중 슬릿 간섭 무늬 살펴보기",
+    "section": "2. 슬라이더로 바뀌는 그래프 (Observable JS)",
+    "text": "2. 슬라이더로 바뀌는 그래프 (Observable JS)\n이중 슬릿의 세기 분포는 다음과 같습니다. 방문자의 브라우저에서 계산되므로 슬라이더를 움직이면 바로 갱신됩니다.\nI(\\theta) = \\cos^2\\!\\left(\\frac{\\pi d \\sin\\theta}{\\lambda}\\right)\\left(\\frac{\\sin\\beta}{\\beta}\\right)^2,\\quad \\beta = \\frac{\\pi a \\sin\\theta}{\\lambda}\n\nviewof lam = Inputs.range([400, 700], {value: 550, step: 10, label: \"파장 λ (nm)\"})\nviewof d = Inputs.range([2, 20], {value: 8, step: 0.5, label: \"슬릿 간격 d (µm)\"})\nviewof a = Inputs.range([0.5, 5], {value: 1.5, step: 0.1, label: \"슬릿 너비 a (µm)\"})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata = {\n  const wl = lam / 1000; // µm\n  const sinc2 = (b) =&gt; (Math.abs(b) &lt; 1e-9 ? 1 : (Math.sin(b) / b) ** 2);\n  return d3.range(-0.3, 0.3001, 0.001).map((theta) =&gt; {\n    const s = Math.sin(theta);\n    const beta = (Math.PI * a * s) / wl;\n    const phase = (Math.PI * d * s) / wl;\n    return { theta, intensity: Math.cos(phase) ** 2 * sinc2(beta) };\n  });\n}\n\nPlot.plot({\n  height: 320,\n  x: { label: \"θ (rad)\" },\n  y: { label: \"상대 세기\", domain: [0, 1] },\n  marks: [Plot.lineY(data, { x: \"theta\", y: \"intensity\" }), Plot.ruleY([0])],\n})"
   },
   {
-    "objectID": "topics/computer-science/discrete-mathematics.html",
-    "href": "topics/computer-science/discrete-mathematics.html",
-    "title": "Discrete Mathematics",
+    "objectID": "topics/computer-science/computer-architecture.html",
+    "href": "topics/computer-science/computer-architecture.html",
+    "title": "Computer Architecture",
     "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Discrete Mathematics 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Computer Architecture 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/computer-science/operating-systems.html",
-    "href": "topics/computer-science/operating-systems.html",
-    "title": "Operating Systems",
+    "objectID": "topics/computer-science/computer-science.html",
+    "href": "topics/computer-science/computer-science.html",
+    "title": "Computer Science",
     "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Operating Systems 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "컴퓨터 과학. 하위 주제: Discrete Mathematics, Data Structures and Algorithms, Computer Architecture, Operating Systems, Computer Networks, Databases, Theory of Computation, Programming Languages and Compilers, Software Engineering, Information Security, Classical Computing, Quantum Computing\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/computer-science/quantum-computing.html",
-    "href": "topics/computer-science/quantum-computing.html",
-    "title": "Quantum Computing",
+    "objectID": "topics/computer-science/databases.html",
+    "href": "topics/computer-science/databases.html",
+    "title": "Databases",
     "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Quantum Computing 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Databases 카테고리를 함께 붙입니다.\n컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 CS Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/computer-science/theory-of-computation.html",
-    "href": "topics/computer-science/theory-of-computation.html",
-    "title": "Theory of Computation",
+    "objectID": "topics/computer-science/information-security.html",
+    "href": "topics/computer-science/information-security.html",
+    "title": "Information Security",
     "section": "",
-    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Theory of Computation 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Information Security 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/classical-mechanics/classical-mechanics.html",
-    "href": "topics/physics/classical-mechanics/classical-mechanics.html",
-    "title": "Classical Mechanics",
+    "objectID": "topics/computer-science/programming-languages-and-compilers.html",
+    "href": "topics/computer-science/programming-languages-and-compilers.html",
+    "title": "Programming Languages and Compilers",
     "section": "",
-    "text": "Physics의 하위 주제 - 고전역학(Classical Mechanics)\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Programming Languages and Compilers 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/electromagnetism/electromagnetism.html",
-    "href": "topics/physics/electromagnetism/electromagnetism.html",
-    "title": "Electromagnetism",
+    "objectID": "topics/computer-science/software-engineering.html",
+    "href": "topics/computer-science/software-engineering.html",
+    "title": "Software Engineering",
     "section": "",
-    "text": "Physics의 하위 주제 - 전자기학(Electromagnetism)\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Computer Science의 하위 주제입니다. 이 주제의 글에는 Computer Science와 Software Engineering 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/mathematical-physics/mathematical-physics.html",
-    "href": "topics/physics/mathematical-physics/mathematical-physics.html",
-    "title": "Mathematical Physics",
+    "objectID": "topics/physics/astrophysics/astrophysics.html",
+    "href": "topics/physics/astrophysics/astrophysics.html",
+    "title": "Astrophysics",
     "section": "",
-    "text": "Physics의 하위 주제 - 수리물리학(Mathematical Physics)\n참고문헌\n\nBoas, M. L. (2006). Mathematical methods in the physical sciences (3rd ed.). John Wiley & Sons.\n\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제 - 천체물리학(Astrophysics)\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/particle-physics/particle-physics.html",
-    "href": "topics/physics/particle-physics/particle-physics.html",
-    "title": "Particle Physics",
+    "objectID": "topics/physics/computational-physics/computational-physics.html",
+    "href": "topics/physics/computational-physics/computational-physics.html",
+    "title": "Computational Physics",
     "section": "",
-    "text": "Physics의 하위 주제 - 입자물리학(Particle Physics)\n참고문헌\n\nTong, D. (2009). Particle physics [Lecture notes]. CERN Summer School. DAMTP, University of Cambridge.\n\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제 - 전산물리학(Computational Physics)\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/quantum-information/quantum-information.html",
-    "href": "topics/physics/quantum-information/quantum-information.html",
-    "title": "Quantum Information",
+    "objectID": "topics/physics/introductory-physics/introductory-physics.html",
+    "href": "topics/physics/introductory-physics/introductory-physics.html",
+    "title": "Introductory Physics",
     "section": "",
-    "text": "Physics의 하위 주제입니다. 이 주제의 글에는 Physics와 Quantum Information 카테고리를 함께 붙입니다.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제 - 물리학 입문(Introductory Physics)\n하고 싶은게 할게 없다면 -&gt; 닥치고 물리학과로\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/physics/relativity-n-cosmology/relativity-n-cosmology.html",
-    "href": "topics/physics/relativity-n-cosmology/relativity-n-cosmology.html",
-    "title": "Relativity and Cosmology",
+    "objectID": "topics/physics/optics/optics.html",
+    "href": "topics/physics/optics/optics.html",
+    "title": "Optics",
     "section": "",
-    "text": "Physics의 하위 주제 - 상대론과 우주론(Relativity and Cosmology)\n참고문헌\n\nBaumann, D. (2022). Cosmology. Cambridge University Press.\n\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "Physics의 하위 주제 - 광학(Optics)\n\n\n\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/programming/programming.html",
-    "href": "topics/programming/programming.html",
-    "title": "Programming",
+    "objectID": "topics/physics/physics.html",
+    "href": "topics/physics/physics.html",
+    "title": "Physics",
     "section": "",
-    "text": "개인 학습 및 부트캠프, Python, ML, DL, AI.\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "&lt;물리학에 대한 설명&gt;\n이 블로그에서 벌어지는 일:\n\n관련 전공 지식 설명\n일부 문제 풀이\n전산 시뮬레이션 구현\n\n\n\n\n\n\n\n\n\n\n이중 슬릿 간섭 무늬 살펴보기\n\n\n\nPhysics\n\nVisualization\n\n\n\n\n슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글\n\n\n\n\n\n\n2026-10-27\n\n\n\n\n\n일치 없음"
   },
   {
-    "objectID": "topics/projects/homelab/homelab.html",
-    "href": "topics/projects/homelab/homelab.html",
-    "title": "HomeLab",
+    "objectID": "topics/physics/quantum-mechanics/quantum-mechanics.html",
+    "href": "topics/physics/quantum-mechanics/quantum-mechanics.html",
+    "title": "Quantum Mechanics",
     "section": "",
-    "text": "개인프로젝트 - HomeLab 구축\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "&lt;양자역학에 대한 설명&gt;\n이 블로그에서 벌어지는 일:\n\n학부 양자역학 및 대학원 양자물리학 전공 개념 정리\n컴퓨팅이 필요한 전공 문제 구현\n\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n참고문헌\n\nGriffiths, D. J., & Schroeter, D. F. (2018). Introduction to quantum mechanics (3rd ed.). Cambridge University Press.\nSakurai, J. J., & Napolitano, J. (2020). Modern quantum mechanics (3rd ed.). Cambridge University Press.\nFitzpatrick, R. (2015). Quantum mechanics. World Scientific Publishing Company.\n\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/physics/thermal-n-statistical-physics/thermal-n-statistical-physics.html",
+    "href": "topics/physics/thermal-n-statistical-physics/thermal-n-statistical-physics.html",
+    "title": "Thermal and Statistical Physics",
+    "section": "",
+    "text": "&lt;열 및 통계 물리학에 대한 설명&gt;\n물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 PHY Core Courses 카테고리도 함께 붙입니다.\n참고문헌\n\nBlundell, S. J., & Blundell, K. M. (2009). Concepts in thermal physics (2nd ed.). Oxford University Press.\n\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/projects/design/design.html",
+    "href": "topics/projects/design/design.html",
+    "title": "Design",
+    "section": "",
+    "text": "개인프로젝트 - 디자인(로고 제작 과정과 결과물)\n\n\n\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "topics/projects/korean-history/korean-history.html",
+    "href": "topics/projects/korean-history/korean-history.html",
+    "title": "Korean History",
+    "section": "",
+    "text": "한국사 공부\n\n\n\n\n\n\n\n\n일치 없음"
   }
 ]
