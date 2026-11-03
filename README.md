@@ -8,9 +8,18 @@ https://yangjaedeok.github.io
 
 ```
 Physics
-├── Quantum Information
+├── Introductory Physics
+├── Mathematical Physics
+├── Classical Mechanics
+├── Electromagnetism
 ├── Quantum Mechanics
-└── Thermal and Statistical Physics
+├── Thermal and Statistical Physics
+├── Optics
+├── Relativity
+├── Particle Physics
+├── Astrophysics and Cosmology
+├── Computational Physics
+└── Quantum Information
 Programming
 Computer Science
 ├── Classical Computing
@@ -37,6 +46,7 @@ categories: [Computer Science, Quantum Computing]
 - 목록 페이지의 `include` 카테고리 문자열은 글에 붙이는 카테고리와 **철자와 대소문자까지 같아야** 합니다.
 - 목록 페이지의 `contents` 경로는 폴더 깊이만큼 `../`를 붙입니다(`topics/physics/x.qmd`는 `../../posts/*/index.qmd`, 한 층 더 깊으면 `../../../posts/*/index.qmd`). 틀리면 목록이 에러 없이 비어 보입니다.
 - 메뉴의 `href`에는 `.qmd` 확장자까지 적습니다.
+- 물리학의 4대 역학(`Classical Mechanics`, `Electromagnetism`, `Quantum Mechanics`, `Thermal and Statistical Physics`)의 글에는 `Core Courses` 카테고리를 추가로 붙입니다. 예: `categories: [Physics, Quantum Mechanics, Core Courses]`
 
 ## 폴더 구성
 

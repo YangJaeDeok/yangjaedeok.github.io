@@ -1,0 +1,15 @@
+---
+title: "Particle Physics"
+description: "Physics의 하위 주제 - 입자물리학(Particle Physics)"
+listing:
+  contents: "../../../posts/*/index.qmd"
+  include:
+    categories: "Particle Physics"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+[Physics](../physics.qmd)의 하위 주제 - 입자물리학(Particle Physics)

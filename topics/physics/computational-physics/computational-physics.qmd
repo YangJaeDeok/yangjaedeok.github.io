@@ -1,0 +1,15 @@
+---
+title: "Computational Physics"
+description: "Physics의 하위 주제 - 전산물리학(Computational Physics)"
+listing:
+  contents: "../../../posts/*/index.qmd"
+  include:
+    categories: "Computational Physics"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+[Physics](../physics.qmd)의 하위 주제 - 전산물리학(Computational Physics)

@@ -1,0 +1,15 @@
+---
+title: "Optics"
+description: "Physics의 하위 주제 - 광학(Optics)"
+listing:
+  contents: "../../../posts/*/index.qmd"
+  include:
+    categories: "Optics"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+[Physics](../physics.qmd)의 하위 주제 - 광학(Optics)
