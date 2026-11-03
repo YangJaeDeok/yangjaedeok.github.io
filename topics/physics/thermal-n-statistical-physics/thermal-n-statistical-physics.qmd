@@ -14,7 +14,7 @@ comments: false
 
 \<열 및 통계 물리학에 대한 설명\>
 
-물리학의 4대 역학(Core Courses) 중 하나입니다. 이 주제의 글에는 `Core Courses` 카테고리도 함께 붙입니다.
+물리학의 4대 역학(PHY Core Courses) 중 하나입니다. 이 주제의 글에는 `PHY Core Courses` 카테고리도 함께 붙입니다.
 
 참고문헌
 

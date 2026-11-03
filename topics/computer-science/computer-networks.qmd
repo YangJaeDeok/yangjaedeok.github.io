@@ -1,0 +1,17 @@
+---
+title: "Computer Networks"
+description: "Computer Science의 하위 주제 - 컴퓨터 네트워크(Computer Networks)"
+listing:
+  contents: "../../posts/*/index.qmd"
+  include:
+    categories: "Computer Networks"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+[Computer Science](computer-science.qmd)의 하위 주제입니다. 이 주제의 글에는 `Computer Science`와 `Computer Networks` 카테고리를 함께 붙입니다.
+
+컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 `CS Core Courses` 카테고리도 함께 붙입니다.

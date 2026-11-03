@@ -22,6 +22,16 @@ Physics
 └── Quantum Information
 Programming
 Computer Science
+├── Discrete Mathematics
+├── Data Structures and Algorithms
+├── Computer Architecture
+├── Operating Systems
+├── Computer Networks
+├── Databases
+├── Theory of Computation
+├── Programming Languages and Compilers
+├── Software Engineering
+├── Information Security
 ├── Classical Computing
 └── Quantum Computing
 Projects
@@ -31,7 +41,7 @@ Design
 
 - **Physics**: 전공 문제 풀이, 계산과 시뮬레이션, 시각화. 하위는 전공별로 나눕니다.
 - **Programming**: 개인 학습 및 부트캠프, Python, ML, DL, AI
-- **Computer Science**: 컴퓨터 과학. 하위로 고전 컴퓨터와 양자 컴퓨터를 함께 봅니다.
+- **Computer Science**: 컴퓨터 과학. 하위는 학부 교육과정 순서의 과목과, 패러다임 구분인 고전 컴퓨터와 양자 컴퓨터로 나눕니다.
 - **Projects**: 개인 프로젝트
 - **Design**: 디자인
 
@@ -46,7 +56,8 @@ categories: [Computer Science, Quantum Computing]
 - 목록 페이지의 `include` 카테고리 문자열은 글에 붙이는 카테고리와 **철자와 대소문자까지 같아야** 합니다.
 - 목록 페이지의 `contents` 경로는 폴더 깊이만큼 `../`를 붙입니다(`topics/physics/x.qmd`는 `../../posts/*/index.qmd`, 한 층 더 깊으면 `../../../posts/*/index.qmd`). 틀리면 목록이 에러 없이 비어 보입니다.
 - 메뉴의 `href`에는 `.qmd` 확장자까지 적습니다.
-- 물리학의 4대 역학(`Classical Mechanics`, `Electromagnetism`, `Quantum Mechanics`, `Thermal and Statistical Physics`)의 글에는 `Core Courses` 카테고리를 추가로 붙입니다. 예: `categories: [Physics, Quantum Mechanics, Core Courses]`
+- 물리학의 4대 역학(`Classical Mechanics`, `Electromagnetism`, `Quantum Mechanics`, `Thermal and Statistical Physics`)의 글에는 `PHY Core Courses` 카테고리를 추가로 붙입니다. 예: `categories: [Physics, Quantum Mechanics, PHY Core Courses]`
+- 컴퓨터 과학의 핵심 과목(`Data Structures and Algorithms`, `Computer Architecture`, `Operating Systems`, `Computer Networks`, `Databases`)의 글에는 `CS Core Courses` 카테고리를 추가로 붙입니다. 예: `categories: [Computer Science, Operating Systems, CS Core Courses]`
 
 ## 폴더 구성
 

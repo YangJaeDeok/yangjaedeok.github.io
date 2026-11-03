@@ -66,6 +66,26 @@ website:
         menu:
           - text: All Computer Science
             href: topics/computer-science/computer-science.qmd
+          - text: Discrete Mathematics
+            href: topics/computer-science/discrete-mathematics.qmd
+          - text: Data Structures and Algorithms
+            href: topics/computer-science/data-structures-and-algorithms.qmd
+          - text: Computer Architecture
+            href: topics/computer-science/computer-architecture.qmd
+          - text: Operating Systems
+            href: topics/computer-science/operating-systems.qmd
+          - text: Computer Networks
+            href: topics/computer-science/computer-networks.qmd
+          - text: Databases
+            href: topics/computer-science/databases.qmd
+          - text: Theory of Computation
+            href: topics/computer-science/theory-of-computation.qmd
+          - text: Programming Languages and Compilers
+            href: topics/computer-science/programming-languages-and-compilers.qmd
+          - text: Software Engineering
+            href: topics/computer-science/software-engineering.qmd
+          - text: Information Security
+            href: topics/computer-science/information-security.qmd
           - text: Classical Computing
             href: topics/computer-science/classical-computing.qmd
           - text: Quantum Computing

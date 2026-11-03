@@ -1,0 +1,17 @@
+---
+title: "Data Structures and Algorithms"
+description: "Computer Science의 하위 주제 - 자료구조와 알고리즘(Data Structures and Algorithms)"
+listing:
+  contents: "../../posts/*/index.qmd"
+  include:
+    categories: "Data Structures and Algorithms"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+[Computer Science](computer-science.qmd)의 하위 주제입니다. 이 주제의 글에는 `Computer Science`와 `Data Structures and Algorithms` 카테고리를 함께 붙입니다.
+
+컴퓨터 과학의 핵심 과목(CS Core Courses) 중 하나입니다. 이 주제의 글에는 `CS Core Courses` 카테고리도 함께 붙입니다.

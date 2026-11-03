@@ -12,4 +12,4 @@ page-layout: full
 comments: false
 ---
 
-컴퓨터 과학. 하위 주제: [Classical Computing](classical-computing.qmd), [Quantum Computing](quantum-computing.qmd)
+컴퓨터 과학. 하위 주제: [Discrete Mathematics](discrete-mathematics.qmd), [Data Structures and Algorithms](data-structures-and-algorithms.qmd), [Computer Architecture](computer-architecture.qmd), [Operating Systems](operating-systems.qmd), [Computer Networks](computer-networks.qmd), [Databases](databases.qmd), [Theory of Computation](theory-of-computation.qmd), [Programming Languages and Compilers](programming-languages-and-compilers.qmd), [Software Engineering](software-engineering.qmd), [Information Security](information-security.qmd), [Classical Computing](classical-computing.qmd), [Quantum Computing](quantum-computing.qmd)

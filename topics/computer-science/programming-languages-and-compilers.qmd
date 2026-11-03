@@ -1,0 +1,15 @@
+---
+title: "Programming Languages and Compilers"
+description: "Computer Science의 하위 주제 - 프로그래밍언어와 컴파일러(Programming Languages and Compilers)"
+listing:
+  contents: "../../posts/*/index.qmd"
+  include:
+    categories: "Programming Languages and Compilers"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+[Computer Science](computer-science.qmd)의 하위 주제입니다. 이 주제의 글에는 `Computer Science`와 `Programming Languages and Compilers` 카테고리를 함께 붙입니다.
