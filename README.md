@@ -1,6 +1,5 @@
-github.io 블로그
-
-https://yangjaedeok.github.io
+# [The Blog](https://yangjaedeok.github.io)
+물리학 전공 지식 정리 및 컴퓨터 과학 학습, 개인 프로젝트 및 경험 정리 포트폴리오 블로그.
 
 [Quarto](https://quarto.org)로 만든 정적 블로그입니다. 글 안에서 코드 실행 결과를 직접 확인하며 상호작용할 수 있습니다.
 
@@ -37,15 +36,16 @@ Computer Science
 Projects
 ├── HomeLab
 ├── Design
-└── Korean History
+└── ...
 Experience
+└── ...
 ```
 
-- **Physics**: 전공 문제 풀이, 계산과 시뮬레이션, 시각화. 하위는 전공별로 나눕니다.
+- **Physics**: 물리학 전공 과목별 개념 정리 및 문제 풀이, 계산과 시뮬레이션 등.
 - **Programming**: 개인 학습 및 부트캠프, Python, ML, DL, AI
-- **Computer Science**: 컴퓨터 과학. 하위는 학부 교육과정 순서의 과목과, 패러다임 구분인 고전 컴퓨터와 양자 컴퓨터로 나눕니다.
-- **Experience**: 학생회 활동, 자격증 취득, 부트캠프, 프로젝트 등 경험 정리와 회고. 하위 주제 없이 글을 한 페이지에 모읍니다. 글에는 `Experience` 카테고리만 붙입니다.
-- **Projects**: 개인 프로젝트. 하위로 HomeLab, Design(로고 제작 과정과 결과물), Korean History(한국사 공부와 인물·사건 DB 만들기)를 둡니다.
+- **Computer Science**: 컴퓨터 과학. 하위는 학부 교육과정 순서의 과목 및 패러다임 구분인 고전 컴퓨터와 양자 컴퓨터.
+- **Experience**: 경험 정리와 회고.
+- **Projects**: 개인 프로젝트. 하위로 HomeLab, Design 등.
 
 Quarto의 카테고리는 계층이 없는 평면 태그라서, 하위 주제의 글에는 **상위와 하위 카테고리를 모두** 붙입니다.
 
@@ -74,7 +74,7 @@ styles.css         푸터를 화면 아래에 고정하는 스타일
 footer-year.html   푸터의 연도 범위를 올해까지로 갱신하는 스크립트
 ```
 
-`main`에 push하면 GitHub Actions가 사이트를 빌드해 `gh-pages` 브랜치로 배포합니다.
+`main`에 push 후 GitHub Actions가 사이트를 빌드, `gh-pages` 브랜치로 배포.
 
 ## 새 글을 쓸 때
 
