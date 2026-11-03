@@ -100,6 +100,8 @@ website:
             href: topics/projects/design/design.qmd
           - text: Korean History
             href: topics/projects/korean-history/korean-history.qmd
+      - text: Experience
+        href: topics/experience/experience.qmd
       - text: Guestbook
         href: guestbook.qmd
     right:

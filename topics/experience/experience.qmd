@@ -1,0 +1,15 @@
+---
+title: "Experience"
+description: "경험과 회고"
+listing:
+  contents: "../../posts/*/index.qmd"
+  include:
+    categories: "Experience"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+page-layout: full
+comments: false
+---
+
+학생회 활동, 자격증 취득, 부트캠프, 프로젝트 등 경험 정리와 회고

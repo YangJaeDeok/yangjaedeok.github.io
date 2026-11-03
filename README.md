@@ -38,11 +38,13 @@ Projects
 ├── HomeLab
 ├── Design
 └── Korean History
+Experience
 ```
 
 - **Physics**: 전공 문제 풀이, 계산과 시뮬레이션, 시각화. 하위는 전공별로 나눕니다.
 - **Programming**: 개인 학습 및 부트캠프, Python, ML, DL, AI
 - **Computer Science**: 컴퓨터 과학. 하위는 학부 교육과정 순서의 과목과, 패러다임 구분인 고전 컴퓨터와 양자 컴퓨터로 나눕니다.
+- **Experience**: 학생회 활동, 자격증 취득, 부트캠프, 프로젝트 등 경험 정리와 회고. 하위 주제 없이 글을 한 페이지에 모읍니다. 글에는 `Experience` 카테고리만 붙입니다.
 - **Projects**: 개인 프로젝트. 하위로 HomeLab, Design(로고 제작 과정과 결과물), Korean History(한국사 공부와 인물·사건 DB 만들기)를 둡니다.
 
 Quarto의 카테고리는 계층이 없는 평면 태그라서, 하위 주제의 글에는 **상위와 하위 카테고리를 모두** 붙입니다.
