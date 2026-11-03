@@ -1,6 +1,6 @@
 ---
 title: "Particle Physics"
-description: "Physics의 하위 주제 - 입자물리학(Particle Physics)"
+description: "입자물리학"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:

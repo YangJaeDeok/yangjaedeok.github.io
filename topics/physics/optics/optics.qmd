@@ -1,6 +1,6 @@
 ---
 title: "Optics"
-description: "Physics의 하위 주제 - 광학(Optics)"
+description: "광학"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:

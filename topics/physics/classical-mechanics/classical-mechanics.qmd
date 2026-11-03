@@ -1,6 +1,6 @@
 ---
 title: "Classical Mechanics"
-description: "Physics의 하위 주제 - 고전역학(Classical Mechanics)"
+description: "고전역학"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:

@@ -1,6 +1,6 @@
 ---
 title: "Computational Physics"
-description: "Physics의 하위 주제 - 전산물리학(Computational Physics)"
+description: "전산물리학"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:

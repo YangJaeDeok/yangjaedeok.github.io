@@ -1,6 +1,6 @@
 ---
 title: "Electromagnetism"
-description: "Physics의 하위 주제 - 전자기학(Electromagnetism)"
+description: "전자기학"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:

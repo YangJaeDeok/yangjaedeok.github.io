@@ -1,6 +1,6 @@
 ---
 title: "Astrophysics and Cosmology"
-description: "Physics의 하위 주제 - 천체물리학과 우주론(Astrophysics and Cosmology)"
+description: "천체물리학, 우주론"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:

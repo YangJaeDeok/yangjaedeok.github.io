@@ -1,6 +1,6 @@
 ---
 title: "Introductory Physics"
-description: "Physics의 하위 주제 - 물리학 입문(Introductory Physics)"
+description: "물리학 입문"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:
@@ -13,3 +13,5 @@ comments: false
 ---
 
 [Physics](../physics.qmd)의 하위 주제 - 물리학 입문(Introductory Physics)
+
+하고 싶은게 할게 없다면 -\> 닥치고 물리학과로

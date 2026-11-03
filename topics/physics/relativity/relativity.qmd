@@ -1,6 +1,6 @@
 ---
 title: "Relativity"
-description: "Physics의 하위 주제 - 상대성이론(Relativity)"
+description: "상대론"
 listing:
   contents: "../../../posts/*/index.qmd"
   include:
@@ -12,4 +12,4 @@ page-layout: full
 comments: false
 ---
 
-[Physics](../physics.qmd)의 하위 주제 - 상대성이론(Relativity)
+[Physics](../physics.qmd)의 하위 주제 - 상대론(Relativity)
