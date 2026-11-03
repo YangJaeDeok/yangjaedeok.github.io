@@ -36,53 +36,17 @@
     "items": []
   },
   {
-    "listing": "/topics/computer-science/theory-of-computation.html",
-    "items": []
-  },
-  {
-    "listing": "/topics/computer-science/quantum-computing.html",
-    "items": []
-  },
-  {
-    "listing": "/topics/computer-science/operating-systems.html",
-    "items": []
-  },
-  {
-    "listing": "/topics/computer-science/discrete-mathematics.html",
-    "items": []
-  },
-  {
-    "listing": "/topics/computer-science/data-structures-and-algorithms.html",
-    "items": []
-  },
-  {
-    "listing": "/topics/computer-science/computer-networks.html",
-    "items": []
-  },
-  {
-    "listing": "/topics/computer-science/classical-computing.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/topics/experience/experience.html",
     "items": [
-      "/posts/double-slit-interference/index.html"
+      "/posts/cbnu-physics-graduate/index.html",
+      "/posts/cbnu-physics-undergraduate/index.html",
+      "/posts/torque-student-council/index.html",
+      "/posts/prism-student-council/index.html",
+      "/posts/army-933-artillery/index.html"
     ]
   },
   {
-    "listing": "/topics/computer-science/computer-architecture.html",
-    "items": []
-  },
-  {
-    "listing": "/topics/computer-science/computer-science.html",
-    "items": []
-  },
-  {
-    "listing": "/topics/computer-science/databases.html",
-    "items": []
-  },
-  {
-    "listing": "/topics/computer-science/information-security.html",
+    "listing": "/topics/computer-science/software-engineering.html",
     "items": []
   },
   {
@@ -90,7 +54,58 @@
     "items": []
   },
   {
-    "listing": "/topics/computer-science/software-engineering.html",
+    "listing": "/topics/computer-science/information-security.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/databases.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/computer-science.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/computer-architecture.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/double-slit-interference/index.html",
+      "/posts/cbnu-physics-graduate/index.html",
+      "/posts/cbnu-physics-undergraduate/index.html",
+      "/posts/torque-student-council/index.html",
+      "/posts/prism-student-council/index.html",
+      "/posts/army-933-artillery/index.html"
+    ]
+  },
+  {
+    "listing": "/topics/computer-science/classical-computing.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/computer-networks.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/data-structures-and-algorithms.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/discrete-mathematics.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/operating-systems.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/quantum-computing.html",
+    "items": []
+  },
+  {
+    "listing": "/topics/computer-science/theory-of-computation.html",
     "items": []
   },
   {
