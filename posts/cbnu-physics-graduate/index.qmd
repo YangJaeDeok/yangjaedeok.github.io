@@ -1,7 +1,7 @@
 ---
 title: "연구장비개발전공"
 description: "충북대학교 물리학과 대학원 연구장비개발전공"
-date: "2026-02-26"
+date: "2026-02-23"
 categories: [Experience]
 giscus-id: cbnu-physics-graduate
 ---
