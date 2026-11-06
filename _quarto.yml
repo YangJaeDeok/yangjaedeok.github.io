@@ -16,7 +16,8 @@ website:
   description: "nomad @physics @cs — not mad, just curious."
   open-graph: true
   twitter-card: true
-  # image: /images/og.png
+  image: images/bg_240831.jpg
+  image-alt: "푸른 하늘을 배경으로 한 궁궐 처마"
   page-footer:
     center: "© Copyright [2022-2026]{.js-year data-start=2022} YangJaeDeok(양재덕)"
   comments:

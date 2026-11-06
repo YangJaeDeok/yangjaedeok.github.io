@@ -1,6 +1,12 @@
 ---
 title: "about me"
 comments: false
+about:
+  template: trestles
+  image: images/profile_2025.jpeg
+  image-alt: "노을을 등지고 카메라를 든 양재덕의 실루엣"
+  image-shape: round
+  image-width: 12em
 ---
 
 **nomad** @physics @cs — *not mad, just curious*.

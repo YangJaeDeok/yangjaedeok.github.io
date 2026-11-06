@@ -9,6 +9,7 @@ listing:
   fields: [date, title, description, categories]
   page-size: 10
 page-layout: full
-title-block-banner: true
+title-block-banner: images/bg_240831.jpg
+title-block-banner-color: white
 comments: false
 ---

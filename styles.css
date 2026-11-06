@@ -33,3 +33,14 @@
 body {
   padding-bottom: 2.5rem;
 }
+
+/* 홈 배너: 사진의 처마가 보이도록 세로 위치를 맞추고, 글자가 묻히지 않게 그림자를 준다. */
+.quarto-title-block .quarto-title-banner {
+  background-position: center 36% !important;
+}
+
+.quarto-title-block .quarto-title-banner .title,
+.quarto-title-block .quarto-title-banner .subtitle,
+.quarto-title-block .quarto-title-banner .description {
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.65);
+}
