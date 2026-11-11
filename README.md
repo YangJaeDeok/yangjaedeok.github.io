@@ -1,5 +1,6 @@
-# [The Blog](https://yangjaedeok.github.io)
-물리학 전공 지식 정리 및 컴퓨터 과학 학습, 개인 프로젝트 및 경험 정리 포트폴리오 블로그.
+# The Blog
+[![Official Website](https://img.shields.io/badge/Website-yangjaedeok.github.io-blue?style=flat-square&logo=github)](https://yangjaedeok.github.io)
+*물리학 전공 지식 정리 및 컴퓨터 과학 학습, 개인 프로젝트 및 경험 정리 포트폴리오*
 
 [Quarto](https://quarto.org)로 만든 정적 블로그입니다. 글 안에서 코드 실행 결과를 직접 확인하며 상호작용할 수 있습니다.
 
