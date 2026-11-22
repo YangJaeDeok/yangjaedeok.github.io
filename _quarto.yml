@@ -124,6 +124,7 @@ format:
     include-after-body: footer-year.html
     toc: true
     code-copy: true
+    code-overflow: wrap
     html-math-method: katex
 
 execute:
