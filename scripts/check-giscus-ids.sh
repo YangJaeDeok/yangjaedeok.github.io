@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # 렌더링 전에 모든 글의 댓글 설정을 검사. 하나라도 어긋나면 빌드 정지.
-#   1. front matter에 giscus-id가 있음 (소문자, 숫자, 하이픈만)
+#   1. front matter에 giscus-id가 있음 (소문자, 숫자, 하이픈, 밑줄만)
 #   2. giscus-id는 포스트 고유값
 #   3. 글 안에 댓글 삽입 줄이 있음
 set -eu
@@ -22,8 +22,8 @@ for f in posts/*/index.qmd; do
   if [ -z "$id" ]; then
     echo "오류: $f 에 giscus-id가 없음." >&2
     status=1
-  elif ! printf '%s\n' "$id" | grep -Eq '^[a-z0-9]([a-z0-9-]*[a-z0-9])?$'; then
-    echo "오류: $f 의 giscus-id '$id'는 소문자, 숫자, 하이픈만 쓸 수 있음." >&2
+  elif ! printf '%s\n' "$id" | grep -Eq '^[a-z0-9]([a-z0-9_-]*[a-z0-9])?$'; then
+    echo "오류: $f 의 giscus-id '$id'는 소문자, 숫자, 하이픈, 밑줄만 쓸 수 있음." >&2
     status=1
   else
     printf '%s\t%s\n' "$id" "$f" >> "$pairs"
