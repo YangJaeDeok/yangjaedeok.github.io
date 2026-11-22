@@ -4,7 +4,7 @@
     "href": "topics/projects/projects.html",
     "title": "Projects",
     "section": "",
-    "text": "개인프로젝트\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "개인프로젝트\n\n\n\n\n\n\n\n\n\n0. 프로젝트 동기\n\n\n\nProjects\n\nKorean History\n\n\n\n\nSQL + 한국사능력검정시험\n\n\n\n\n\n\n2026-11-21\n\n\n\n\n\n일치 없음"
   },
   {
     "objectID": "topics/projects/homelab/homelab.html",
@@ -154,151 +154,18 @@
     "text": "배운 점\n\n규칙은 만든 사람보다 쓰는 사람의 입장에서 볼 때 빈틈이 드러난다. 회장일 때 정한 것을 사무부장으로 직접 집행해 보니 어디가 불편한지 보였다.\n무단 사용처럼 반복되는 문제는 금지만으로 풀리지 않는다. 수요를 인정하고 위치, 수량, 책임자를 정하는 편이 오래 간다.\n명단과 증빙을 평소에 정리해 두면 행사와 감사 때 일이 줄어든다."
   },
   {
-    "objectID": "posts/double-slit-interference/index.html",
-    "href": "posts/double-slit-interference/index.html",
-    "title": "이중 슬릿 간섭 무늬 살펴보기",
+    "objectID": "posts/kor-history-db_00-motivation/index.html",
+    "href": "posts/kor-history-db_00-motivation/index.html",
+    "title": "0. 프로젝트 동기",
     "section": "",
-    "text": "이 글은 블로그에서 쓸 수 있는 두 가지 상호작용 방식을 확인하기 위한 예시입니다."
+    "text": "선요약 : SQL + 한능검 공부\n\n&lt;졸업사진&gt;\n\n2026년 상반기에 석사과정을 졸업하고 취업 준비를 시작했습니다. 20대 내내 대학에만 있다가 막연하게 취준 하려고 보니 뭐부터 해야할지 몰라서, 일단 필요해보이는 자격증부터 따보기로 결정했습니다. ‘취업 공부를 하다보면 뭐라도 보이지 않을까-’ 하는 생각이 들었거든요.\nIT와 전산 쪽으로 가닥을 잡고 공부를 시작했는데 따야할 온갖 자격증이 너무 많더라구요. 공부하면서 드는 생각은\n\n“이걸 왜 학위과정 하는 동안 안했지” “AI 때문에 다 망해가는 업계에 왜 이제서야 관심을 가졌지”\n\n… 후회 막심한건 고사하고 일단 발등에 불 떨어졌으니, 여러 자격증 취득을 시도했고 다음의 결과를 얻었습니다\n\n리눅스 마스터 2급 필기\nADsP\n정보처리기사 필기\n네트워크 관리사 2급 필기\n\n사실 IT 자격증 중 기본 중의 기본인 SQLD는 못땄습니다. SQL 체득이 잘 안됐었는데, 개념과 쿼리문을 봐도 직접 해본 적이 없으니 소위 말하는 ’뇌컴파일’이 아예 안되는 수준이었거든요. 연습하기에는 적절한 자료도, 서버도 없던 터라 개념서랑 풀이서만 봤는데 그게 생각보다 안됐습니다.\n\n나머지 자격증 실기 시험도 빨리 봐야하는데 부트캠프랑 병행하기는 벅찼다는 핑계를…\n한창 그렇게 자격증 공부하다가 한국사능력검정시험도 알게 됐는데, 어렸을 때부터 역사에 관심이 많았던 터라 ncs가 아니더라도 이건 반드시 따야겠다 싶었습니다. 그렇게 심화 준비를 했는데, 단기간에 암기하기 힘들고 필수 자격증은 아니라는 안일함에(…) 의지 부족이 겹쳐서 계속 낙방했습니다.\n학창시절부터 한국사가 다른 사람의 연애사와 비슷한 특성을 지니고 있다고 생각할 때가 많았는데 이유인 즉슨 ‘들을 땐 재밌고 흥미진진한데, 복기하려면 기억이 잘 안나고 굳이 이것까지 알아야하나’ 싶어서…\n어쨌든 이 두마리 토끼를 다 잡기 위한 방법으로 생각해낸게 한능검 공부를 SQL로 해보자는 것이었습니다. 두마리 토끼를 다 잡을 수 있을지, 다 놓칠지는 모르겠지만 부트캠프에서 배운 MariaDB 실습용으로는 훌륭한 소재인 것 같아서 시도해보려 합니다.\n\n\n한국사 DB 자체는 국사편찬위원회에서 국가사업으로 구축되어 있습니다\n\nhttps://db.history.go.kr/\n\n하지만 이 정도의 DB를 개인이 보유할 이유도 없거니와, 너무 많은 정보를 담고 있다보니 SQL 실습 + 한국사능력검정시험 심화 공부 목적 선에서 개인 서버에 한번 구축해보기로 했습니다.\n\n\n\n집에 구축한 홈랩에 DB를 적재합니다. 홈랩 구축에 대한 포스트는 여기에서 확인할 수 있습니다.\nProxmox 기반 NAS에 MariaDB용 LXC를 올리고, 해당 LXC에 제 맥북과 홈랩의 클로드 코드가 접근 가능하게끔 설정해줬습니다.\nProxmox에 MariaDB LXC 설치 스크립트 에서 명령어를 복사하고, host의 셸에 입력하면 설치됩니다.\nvar_os='debian' bash -c \"$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/mariadb.sh)\"\nDB 서버의 세부 설정은 개인 취향대로 하면 됩니다.\n\n\n부트캠프에서 프로젝트 몇 개를 해보니, 협업 목적으로 레포지토리를 쓰는 방법을 배웠습니다. 쓰기 전에 생각했던 것보다 훨씬 더 프로젝트 관리에 유용하기에, 개인 레포지만 마일스톤과 이슈, PR을 연습해보려고 합니다.\n그냥 main 브렌치에 커밋푸시하는 것보다는 조금 더 다채롭게 쓸 수 있을 것 같기도 하고, 면접에서 DB를 다뤄본 적이 있는지 묻는 질문에 보여드릴 포트폴리오로 쓸 수도 있을거라고 생각이 듭니다.\n진행에 따라 변할 수도 있지만, 큰 틀에서 레포 폴더 구조는 다음과 같습니다.\nkorean-history-db/\n├── .github/                          GitHub 설정 (이슈·PR 템플릿)\n│   └── ISSUE_TEMPLATE/               이슈 유형별 템플릿\n├── data/                             시대별 입력 SQL\n│   ├── 00_base/                      공통 기반 (시대 구분, 출처 등)\n│   ├── 01_prehistoric/               선사시대\n│   ├── 02_gojoseon/                  고조선\n│   ├── 03_three_kingdoms/            삼국시대\n│   ├── 04_north_south_states/        남북국시대\n│   ├── 05_later_three_kingdoms/      후삼국시대\n│   ├── 06_goryeo/                    고려\n│   ├── 07_joseon/                    조선\n│   ├── 08_opening_ports/             개항기·대한제국\n│   ├── 09_japanese_colonial/         일제강점기\n│   ├── 10_contemporary/              현대사\n│   └── 99_links/                     링크 (시대 간 연결)\n├── docs/                             문서 (입력 규칙 등)\n├── schema/                           DB 스키마 SQL (번호 순서대로 실행)\n├── scripts/                          보조 스크립트 (DB 접속 등)\n├── .env                              DB 접속 정보 (로컬 전용, git 제외)\n├── .env.example                      .env 견본 (실제 값 없음)\n├── .gitignore                        git 제외 목록\n├── LICENSE                           라이선스 (MIT)\n└── README.md                         프로젝트 소개\n\n```{=html}\n&lt;script src=\"https://giscus.app/client.js\"\n  data-repo=\"YangJaeDeok/yangjaedeok.github.io\"\n  data-repo-id=\"R_kgDOVXhyfg\"\n  data-category=\"Comments\"\n  data-category-id=\"DIC_kwDOVXhyfs4DJ4kU\"\n  data-mapping=\"specific\"\n  data-term=\"kor-history-db_00-motivation\"\n  data-strict=\"1\"\n  data-reactions-enabled=\"1\"\n  data-emit-metadata=\"0\"\n  data-input-position=\"top\"\n  data-theme=\"light\"\n  data-lang=\"ko\"\n  data-loading=\"lazy\"\n  crossorigin=\"anonymous\"\n  async&gt;\n&lt;/script&gt;\n```"
   },
   {
-    "objectID": "posts/double-slit-interference/index.html#d-그래프-plotly",
-    "href": "posts/double-slit-interference/index.html#d-그래프-plotly",
-    "title": "이중 슬릿 간섭 무늬 살펴보기",
-    "section": "1. 3D 그래프 (Plotly)",
-    "text": "1. 3D 그래프 (Plotly)\nz = \\frac{\\sin r}{r},\\quad r = \\sqrt{x^2 + y^2}\n그래프를 마우스로 돌리고 확대해 볼 수 있습니다. 이 그래프는 빌드할 때 Python으로 한 번 계산됩니다.\n\n\n코드\nfrom surface import make_surface\n\nmake_surface().show()\n\n\n\n\n                            \n                                            \n\n\n그림 1\n\n\n\n\n\n\n\n\n\n\n노트surface.py 전체 코드\n\n\n\n\n\nimport numpy as np\nimport plotly.graph_objects as go\n\n\ndef make_surface(n=120, extent=6):\n    x = np.linspace(-extent, extent, n)\n    y = np.linspace(-extent, extent, n)\n    X, Y = np.meshgrid(x, y)\n    R = np.hypot(X, Y)\n    Z = np.sinc(R / np.pi)  # sin(R) / R\n\n    fig = go.Figure(go.Surface(x=X, y=Y, z=Z, colorscale=\"Viridis\"))\n    fig.update_layout(\n        height=520,\n        margin=dict(l=0, r=0, t=30, b=0),\n        scene=dict(xaxis_title=\"x\", yaxis_title=\"y\", zaxis_title=\"sin(r)/r\"),\n    )\n    return fig"
-  },
-  {
-    "objectID": "posts/double-slit-interference/index.html#슬라이더로-바뀌는-그래프-observable-js",
-    "href": "posts/double-slit-interference/index.html#슬라이더로-바뀌는-그래프-observable-js",
-    "title": "이중 슬릿 간섭 무늬 살펴보기",
-    "section": "2. 슬라이더로 바뀌는 그래프 (Observable JS)",
-    "text": "2. 슬라이더로 바뀌는 그래프 (Observable JS)\n이중 슬릿의 세기 분포는 다음과 같습니다. 방문자의 브라우저에서 계산되므로 슬라이더를 움직이면 바로 갱신됩니다.\nI(\\theta) = \\cos^2\\!\\left(\\frac{\\pi d \\sin\\theta}{\\lambda}\\right)\\left(\\frac{\\sin\\beta}{\\beta}\\right)^2,\\quad \\beta = \\frac{\\pi a \\sin\\theta}{\\lambda}\n\nviewof lam = Inputs.range([400, 700], {value: 550, step: 10, label: \"파장 λ (nm)\"})\nviewof d = Inputs.range([2, 20], {value: 8, step: 0.5, label: \"슬릿 간격 d (µm)\"})\nviewof a = Inputs.range([0.5, 5], {value: 1.5, step: 0.1, label: \"슬릿 너비 a (µm)\"})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata = {\n  const wl = lam / 1000; // µm\n  const sinc2 = (b) =&gt; (Math.abs(b) &lt; 1e-9 ? 1 : (Math.sin(b) / b) ** 2);\n  return d3.range(-0.3, 0.3001, 0.001).map((theta) =&gt; {\n    const s = Math.sin(theta);\n    const beta = (Math.PI * a * s) / wl;\n    const phase = (Math.PI * d * s) / wl;\n    return { theta, intensity: Math.cos(phase) ** 2 * sinc2(beta) };\n  });\n}\n\nPlot.plot({\n  height: 320,\n  x: { label: \"θ (rad)\" },\n  y: { label: \"상대 세기\", domain: [0, 1] },\n  marks: [Plot.lineY(data, { x: \"theta\", y: \"intensity\" }), Plot.ruleY([0])],\n})"
-  },
-  {
-    "objectID": "posts/cbnu-physics-graduate/index.html",
-    "href": "posts/cbnu-physics-graduate/index.html",
-    "title": "연구장비개발전공",
+    "objectID": "posts/kor-history-db_00-motivation/index.html#프로젝트-구성",
+    "href": "posts/kor-history-db_00-motivation/index.html#프로젝트-구성",
+    "title": "0. 프로젝트 동기",
     "section": "",
-    "text": "2024년 3월부터 2026년 2월까지 충북대학교 대학원 물리학과 연구장비개발전공 석사 과정, 2026년 2월 23일에 이학석사로 졸업. 학부 졸업연구를 지도받던 연구실에서 그대로 대학원 생활을 이어갔다."
-  },
-  {
-    "objectID": "posts/cbnu-physics-graduate/index.html#개요",
-    "href": "posts/cbnu-physics-graduate/index.html#개요",
-    "title": "연구장비개발전공",
-    "section": "",
-    "text": "2024년 3월부터 2026년 2월까지 충북대학교 대학원 물리학과 연구장비개발전공 석사 과정, 2026년 2월 23일에 이학석사로 졸업. 학부 졸업연구를 지도받던 연구실에서 그대로 대학원 생활을 이어갔다."
-  },
-  {
-    "objectID": "posts/cbnu-physics-graduate/index.html#연구장비개발전공",
-    "href": "posts/cbnu-physics-graduate/index.html#연구장비개발전공",
-    "title": "연구장비개발전공",
-    "section": "연구장비개발전공",
-    "text": "연구장비개발전공\n연구장비개발전공은 물리 이론을 배우는 데서 그치지 않고 측정과 제어, 자동화로 직접 장비를 설계하고 만드는 데 초점을 둔 전공이다. 이수한 과목은 다음과 같다.\n\n장비 제어: 장비자동화(DAQ, 시리얼 통신 등 컴퓨터 제어 계측), 장비개발프로젝트 I\n광학과 분광: 광학개론, 고급분광장비, 현미경개론\n이론: 양자물리학 I, II\n연구: 연구윤리 및 연구과제 I, 경력개발과 진로\n\n이수 과목은 전부 A+ 또는 Pass였고 평점은 4.50/4.50이었다. 논문제출자격시험은 광학개론, 현미경개론, 양자물리학 I로 2025년 9월에 통과."
-  },
-  {
-    "objectID": "posts/cbnu-physics-graduate/index.html#연구-5축-렌즈-자동정렬-장비",
-    "href": "posts/cbnu-physics-graduate/index.html#연구-5축-렌즈-자동정렬-장비",
-    "title": "연구장비개발전공",
-    "section": "연구: 5축 렌즈 자동정렬 장비",
-    "text": "연구: 5축 렌즈 자동정렬 장비\n석사 기간의 중심은 (주)바투잼과 함께한 산학 프로젝트였다. 카메라(CCD)와 렌즈 모듈을 5축(XYZ 선형 스테이지와 고니오미터 2개)으로 자동 정렬하는 장치와 이를 제어하는 파이썬 프로그램을 개발했다.\n\n스테핑 모터 컨트롤러와 스테이지를 제어하는 클래스를 만들고 상태 요청을 병렬로 처리했다. 위치와 스텝을 바꾸는 변환식도 직접 유도했다.\n카메라 영상을 여러 구역(ROI)으로 나눠 구역별 선명도를 계산했다. 이 값으로 z축 오토포커싱과 초점 평면 시각화를 구현했다.\n렌즈 클램프와 차광 구조물, 핀홀을 직접 제작하고 고쳐 가며 실험 환경을 다듬었다.\n기존 C 코드를 파이썬으로 옮겼다. 컨트롤러 명령은 딕셔너리와 Queue 기반으로 다시 설계했고, 이미지 처리와 스테이지 구동, 정렬 프로세스를 계층별로 나눠 모듈화했다.\n2025년 6월 기준으로 z축 탐색 정렬까지 완료했고, 선명도 기반 정렬과 좌표 기반 정렬은 진행 중이었다. 최종 완성은 못함"
-  },
-  {
-    "objectID": "posts/cbnu-physics-graduate/index.html#발표와-활동",
-    "href": "posts/cbnu-physics-graduate/index.html#발표와-활동",
-    "title": "연구장비개발전공",
-    "section": "발표와 활동",
-    "text": "발표와 활동\n\n장비개발프로젝트 수업에서 연구실 구성원이 돌아가며 발표하고 서로 질의응답을 했다. 청중이 직접 관련 논문을 찾아 질문하는 방식이었다.\nKBSI에서 열린 장비개발 성과발표 2차(2024.8, 2025.9)에 진출.\n충북대 양자기술 플랫폼 연구센터의 ICT 챌린지 아이디어 경진대회에 팀장으로 참가했다. 주제는 양자 어닐러 위협을 고려한 양자내성암호 전환 전략이다. 수상 여부는 볼트에 없다. (확인 필요)\n2024학년도 1학기부터 2025학년도 2학기까지 4개 학기 동안 일반물리학과 전자기학 TA."
-  },
-  {
-    "objectID": "posts/cbnu-physics-graduate/index.html#배운-점과-이후",
-    "href": "posts/cbnu-physics-graduate/index.html#배운-점과-이후",
-    "title": "연구장비개발전공",
-    "section": "배운 점과 이후",
-    "text": "배운 점과 이후\n\n장비 개발은 이론보다 시행착오가 많았다. 통신 오류나 호환성 문제, 구조물의 휨 같은 문제가 계속 나왔고, 지도교수님께 “진짜 문제부터 직면하라”는 피드백을 받았음.\n하드웨어와 소프트웨어를 함께 다루는 능력이 가장 크게 남았다. 이 경험이 졸업 후 방산, 반도체, IT 쪽 취업 준비(자기소개서 작성)의 바탕이 되었다.\n양자정보 쪽으로 공부를 넓히고 싶었지만 같은 연구실 동료의 연구와는 닿지 못했음."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The Blog",
-    "section": "",
-    "text": "이중 슬릿 간섭 무늬 살펴보기\n\n\n\nPhysics\n\nVisualization\n\n\n\n\n슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글\n\n\n\n\n\n\n2026-10-27\n\n\n\n\n\n\n\n연구장비개발전공\n\n\n\nExperience\n\n\n\n\n충북대학교 물리학과 대학원 연구장비개발전공\n\n\n\n\n\n\n2026-02-23\n\n\n\n\n\n\n\n충북대학교 물리학과\n\n\n\nExperience\n\n\n\n\n충북대학교 물리학과 학부 과정\n\n\n\n\n\n\n2024-02-22\n\n\n\n\n\n\n\n44대 Torque 학생회\n\n\n\nExperience\n\n\n\n\n충북대학교 물리학과 44대 Torque 학생회 사무부장\n\n\n\n\n\n\n2023-12-31\n\n\n\n\n\n\n\n43대 Prism 학생회\n\n\n\nExperience\n\n\n\n\n충북대학교 물리학과 43대 Prism 학생회 학생회장\n\n\n\n\n\n\n2022-12-31\n\n\n\n\n\n\n\n제2기갑여단 933포병대대\n\n\n\nExperience\n\n\n\n\n제2기갑여단 933포병대대 육군하사\n\n\n\n\n\n\n2021-09-01\n\n\n\n\n\n일치 없음"
-  },
-  {
-    "objectID": "about-me.html",
-    "href": "about-me.html",
-    "title": "about me",
-    "section": "",
-    "text": "nomad @physics @cs — not mad, just curious."
-  },
-  {
-    "objectID": "about-me.html#now",
-    "href": "about-me.html#now",
-    "title": "about me",
-    "section": "Now",
-    "text": "Now"
-  },
-  {
-    "objectID": "about-me.html#topics",
-    "href": "about-me.html#topics",
-    "title": "about me",
-    "section": "Topics",
-    "text": "Topics"
-  },
-  {
-    "objectID": "about-me.html#timeline",
-    "href": "about-me.html#timeline",
-    "title": "about me",
-    "section": "Timeline",
-    "text": "Timeline\n\n\n2 양천고등학교 졸업\n\n\n3 충북대학교 물리학과 입학\n\n\n7 ~ 2021. 8 제2기갑여단 933포병대대 육군하사 만기전역\n\n\n3 ~ 2022. 12 충북대학교 물리학과 43대 Prism 학생회 학생회장\n\n\n3 ~ 2023. 12 충북대학교 물리학과 44대 Torque 학생회 사무부장\n\n\n2 충북대학교 물리학과 이학사 졸업\n\n\n2 충북대학교 물리학과 대학원 연구장비개발전공 이학석사 졸업"
-  },
-  {
-    "objectID": "about-me.html#outside-work",
-    "href": "about-me.html#outside-work",
-    "title": "about me",
-    "section": "Outside work",
-    "text": "Outside work"
-  },
-  {
-    "objectID": "guestbook.html",
-    "href": "guestbook.html",
-    "title": "Guestbook",
-    "section": "",
-    "text": "방문 기록이나 인사를 남겨 주세요. GitHub 계정으로 로그인해서 쓸 수 있습니다."
-  },
-  {
-    "objectID": "posts/army-933-artillery/index.html",
-    "href": "posts/army-933-artillery/index.html",
-    "title": "제2기갑여단 933포병대대",
-    "section": "",
-    "text": "2019년 7월 8일 육군 30사단 신교대에 입대해 2021년 8월 31일 만기전역. 약 26개월을 제2기갑여단 933포병대대 1포대에서 야전포병 복무, 전역 계급은 하사."
-  },
-  {
-    "objectID": "posts/army-933-artillery/index.html#복무-기간과-보직",
-    "href": "posts/army-933-artillery/index.html#복무-기간과-보직",
-    "title": "제2기갑여단 933포병대대",
-    "section": "복무 기간과 보직",
-    "text": "복무 기간과 보직\n\n2019.07.08 입대, 30사단. 2019.08.14 제2기갑여단 933포병대대로 전속되어 포병 특기(131103)를 받았다.\n2019.08 - 2020.12 까지 기준포인 3포에서 1번포수 -&gt; 부사수 -&gt; 사수로 있었음. 포대 조직 개편 및 임관으로 5포로 이동.\n2021.02.01 임기제 부사관(하사)으로 임관했다. 같은 5포반에서 사수 보직을 이어가다 2021.08.31 전역했다.\n병사로 18개월 남짓, 부사관으로 7개월을 복무."
-  },
-  {
-    "objectID": "posts/army-933-artillery/index.html#맡은-일",
-    "href": "posts/army-933-artillery/index.html#맡은-일",
-    "title": "제2기갑여단 933포병대대",
-    "section": "맡은 일",
-    "text": "맡은 일\n병사 때는 포반의 부사수로 시작해 사수가 되었고, 하사로 임관한 뒤에도 5포반 사수를 맡았다. 부사관이 된 뒤에는 병사 때 없던 간부 업무가 늘었다. 즉각대기 초과근무 편성, 당직부관과 선탑자 업무, 포반장 보고 체계 정리 같은 일이다. 자기소개서용 정리 글감으로 전포반장 직무대행, K55A1 현대화에 따른 신규 장비 인수, 포반원 교육용 매뉴얼 제작."
-  },
-  {
-    "objectID": "posts/army-933-artillery/index.html#기억에-남는-일",
-    "href": "posts/army-933-artillery/index.html#기억에-남는-일",
-    "title": "제2기갑여단 933포병대대",
-    "section": "기억에 남는 일",
-    "text": "기억에 남는 일\n\n30사단 신교대가 무한도전과 푸른거탑에 나오는 그 곳이었음. 30사단 해체가 예정되어 건물은 철거 되겠으나, 가끔씩 미디어에 뜨면 옛날 생각이 남\n코로나19로 부대 통제가 강했던 2020년에는 외부 활동이 막힌 채 지냈다. 원격수업으로 컴퓨팅 사고력 과목을 듣고, 전역 후 컴퓨터 쪽 복수전공이나 부전공을 할지 고민했다.\n휴가 때는 학과 사람들을 만나 전공 노트를 받아 오고, 병 자기계발비로는 전공책. 복학 후 전공 수업을 따라가기 위한 준비였다.\n하사로 재입대 후 2021년 3월 혹한기 훈련(3/3-3/6)과 이어진 울타리 보수작업이 가장 힘들었던 기억으로 남아 있다.\n포반장 교육대 파견\n2020년 남북연락사무소 폭파\n복무 중 짧은 글을 몇 편 썼다.\n바꿀 수 있는게 내 체력과 정신 상태 정도라고 생각해서 교육훈련에서 최선을 다함. 결국 포대 최초 특급전사 선정."
-  },
-  {
-    "objectID": "posts/army-933-artillery/index.html#돌아보며",
-    "href": "posts/army-933-artillery/index.html#돌아보며",
-    "title": "제2기갑여단 933포병대대",
-    "section": "돌아보며",
-    "text": "돌아보며\n임기제 부사관에 대한 회고 - 좋지만은 않은데, 돌아간다고 하면 다시 할 듯\n그래도 이때의 습관이 이후로 이어진 부분도 있다. 퇴근 후 시간에 무언가를 해야 전역 후에 뿌듯하다는 생각으로 글과 일과 일지를 남겼고, 복무 중에도 학과 사람들과 연락을 이어간 덕분에 전역 후 복학과 적응이 수월했다. 2015년부터 이어 온 매일 일기는 2021년도 5월 즈음 전역을 앞두면서부터 끊겼음.\n코로나로 인해 미복귀 전역했고, 2주정도 놀았음. 전역일이 8월 31일이라 9월 1일에 칼복학할 수 있었음"
+    "text": "집에 구축한 홈랩에 DB를 적재합니다. 홈랩 구축에 대한 포스트는 여기에서 확인할 수 있습니다.\nProxmox 기반 NAS에 MariaDB용 LXC를 올리고, 해당 LXC에 제 맥북과 홈랩의 클로드 코드가 접근 가능하게끔 설정해줬습니다.\nProxmox에 MariaDB LXC 설치 스크립트 에서 명령어를 복사하고, host의 셸에 입력하면 설치됩니다.\nvar_os='debian' bash -c \"$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/mariadb.sh)\"\nDB 서버의 세부 설정은 개인 취향대로 하면 됩니다.\n\n\n부트캠프에서 프로젝트 몇 개를 해보니, 협업 목적으로 레포지토리를 쓰는 방법을 배웠습니다. 쓰기 전에 생각했던 것보다 훨씬 더 프로젝트 관리에 유용하기에, 개인 레포지만 마일스톤과 이슈, PR을 연습해보려고 합니다.\n그냥 main 브렌치에 커밋푸시하는 것보다는 조금 더 다채롭게 쓸 수 있을 것 같기도 하고, 면접에서 DB를 다뤄본 적이 있는지 묻는 질문에 보여드릴 포트폴리오로 쓸 수도 있을거라고 생각이 듭니다.\n진행에 따라 변할 수도 있지만, 큰 틀에서 레포 폴더 구조는 다음과 같습니다.\nkorean-history-db/\n├── .github/                          GitHub 설정 (이슈·PR 템플릿)\n│   └── ISSUE_TEMPLATE/               이슈 유형별 템플릿\n├── data/                             시대별 입력 SQL\n│   ├── 00_base/                      공통 기반 (시대 구분, 출처 등)\n│   ├── 01_prehistoric/               선사시대\n│   ├── 02_gojoseon/                  고조선\n│   ├── 03_three_kingdoms/            삼국시대\n│   ├── 04_north_south_states/        남북국시대\n│   ├── 05_later_three_kingdoms/      후삼국시대\n│   ├── 06_goryeo/                    고려\n│   ├── 07_joseon/                    조선\n│   ├── 08_opening_ports/             개항기·대한제국\n│   ├── 09_japanese_colonial/         일제강점기\n│   ├── 10_contemporary/              현대사\n│   └── 99_links/                     링크 (시대 간 연결)\n├── docs/                             문서 (입력 규칙 등)\n├── schema/                           DB 스키마 SQL (번호 순서대로 실행)\n├── scripts/                          보조 스크립트 (DB 접속 등)\n├── .env                              DB 접속 정보 (로컬 전용, git 제외)\n├── .env.example                      .env 견본 (실제 값 없음)\n├── .gitignore                        git 제외 목록\n├── LICENSE                           라이선스 (MIT)\n└── README.md                         프로젝트 소개\n\n```{=html}\n&lt;script src=\"https://giscus.app/client.js\"\n  data-repo=\"YangJaeDeok/yangjaedeok.github.io\"\n  data-repo-id=\"R_kgDOVXhyfg\"\n  data-category=\"Comments\"\n  data-category-id=\"DIC_kwDOVXhyfs4DJ4kU\"\n  data-mapping=\"specific\"\n  data-term=\"kor-history-db_00-motivation\"\n  data-strict=\"1\"\n  data-reactions-enabled=\"1\"\n  data-emit-metadata=\"0\"\n  data-input-position=\"top\"\n  data-theme=\"light\"\n  data-lang=\"ko\"\n  data-loading=\"lazy\"\n  crossorigin=\"anonymous\"\n  async&gt;\n&lt;/script&gt;\n```"
   },
   {
     "objectID": "posts/cbnu-physics-undergraduate/index.html",
@@ -348,6 +215,153 @@
     "title": "충북대학교 물리학과",
     "section": "돌아보며",
     "text": "돌아보며\n학부 시절 가장 큰 변화는 소극적이던 성격이 동기와 선후배 덕분에 바뀐 것. 화석이라면서 애들 피해다니다가 대학원 입학하니 4학년도 어리다는걸 알게 됨 학부졸업할 때가 되어서야 학부 공부를 더 열심히 할걸 그랬다는 후회. 졸업하니까 학교가 점점 좋아짐 공부 면에서는 이론을 수식으로 따라가는 힘과 실험 데이터를 정리해 발표하는 경험이 남음."
+  },
+  {
+    "objectID": "posts/army-933-artillery/index.html",
+    "href": "posts/army-933-artillery/index.html",
+    "title": "제2기갑여단 933포병대대",
+    "section": "",
+    "text": "2019년 7월 8일 육군 30사단 신교대에 입대해 2021년 8월 31일 만기전역. 약 26개월을 제2기갑여단 933포병대대 1포대에서 야전포병 복무, 전역 계급은 하사."
+  },
+  {
+    "objectID": "posts/army-933-artillery/index.html#복무-기간과-보직",
+    "href": "posts/army-933-artillery/index.html#복무-기간과-보직",
+    "title": "제2기갑여단 933포병대대",
+    "section": "복무 기간과 보직",
+    "text": "복무 기간과 보직\n\n2019.07.08 입대, 30사단. 2019.08.14 제2기갑여단 933포병대대로 전속되어 포병 특기(131103)를 받았다.\n2019.08 - 2020.12 까지 기준포인 3포에서 1번포수 -&gt; 부사수 -&gt; 사수로 있었음. 포대 조직 개편 및 임관으로 5포로 이동.\n2021.02.01 임기제 부사관(하사)으로 임관했다. 같은 5포반에서 사수 보직을 이어가다 2021.08.31 전역했다.\n병사로 18개월 남짓, 부사관으로 7개월을 복무."
+  },
+  {
+    "objectID": "posts/army-933-artillery/index.html#맡은-일",
+    "href": "posts/army-933-artillery/index.html#맡은-일",
+    "title": "제2기갑여단 933포병대대",
+    "section": "맡은 일",
+    "text": "맡은 일\n병사 때는 포반의 부사수로 시작해 사수가 되었고, 하사로 임관한 뒤에도 5포반 사수를 맡았다. 부사관이 된 뒤에는 병사 때 없던 간부 업무가 늘었다. 즉각대기 초과근무 편성, 당직부관과 선탑자 업무, 포반장 보고 체계 정리 같은 일이다. 자기소개서용 정리 글감으로 전포반장 직무대행, K55A1 현대화에 따른 신규 장비 인수, 포반원 교육용 매뉴얼 제작."
+  },
+  {
+    "objectID": "posts/army-933-artillery/index.html#기억에-남는-일",
+    "href": "posts/army-933-artillery/index.html#기억에-남는-일",
+    "title": "제2기갑여단 933포병대대",
+    "section": "기억에 남는 일",
+    "text": "기억에 남는 일\n\n30사단 신교대가 무한도전과 푸른거탑에 나오는 그 곳이었음. 30사단 해체가 예정되어 건물은 철거 되겠으나, 가끔씩 미디어에 뜨면 옛날 생각이 남\n코로나19로 부대 통제가 강했던 2020년에는 외부 활동이 막힌 채 지냈다. 원격수업으로 컴퓨팅 사고력 과목을 듣고, 전역 후 컴퓨터 쪽 복수전공이나 부전공을 할지 고민했다.\n휴가 때는 학과 사람들을 만나 전공 노트를 받아 오고, 병 자기계발비로는 전공책. 복학 후 전공 수업을 따라가기 위한 준비였다.\n하사로 재입대 후 2021년 3월 혹한기 훈련(3/3-3/6)과 이어진 울타리 보수작업이 가장 힘들었던 기억으로 남아 있다.\n포반장 교육대 파견\n2020년 남북연락사무소 폭파\n복무 중 짧은 글을 몇 편 썼다.\n바꿀 수 있는게 내 체력과 정신 상태 정도라고 생각해서 교육훈련에서 최선을 다함. 결국 포대 최초 특급전사 선정."
+  },
+  {
+    "objectID": "posts/army-933-artillery/index.html#돌아보며",
+    "href": "posts/army-933-artillery/index.html#돌아보며",
+    "title": "제2기갑여단 933포병대대",
+    "section": "돌아보며",
+    "text": "돌아보며\n임기제 부사관에 대한 회고 - 좋지만은 않은데, 돌아간다고 하면 다시 할 듯\n그래도 이때의 습관이 이후로 이어진 부분도 있다. 퇴근 후 시간에 무언가를 해야 전역 후에 뿌듯하다는 생각으로 글과 일과 일지를 남겼고, 복무 중에도 학과 사람들과 연락을 이어간 덕분에 전역 후 복학과 적응이 수월했다. 2015년부터 이어 온 매일 일기는 2021년도 5월 즈음 전역을 앞두면서부터 끊겼음.\n코로나로 인해 미복귀 전역했고, 2주정도 놀았음. 전역일이 8월 31일이라 9월 1일에 칼복학할 수 있었음"
+  },
+  {
+    "objectID": "guestbook.html",
+    "href": "guestbook.html",
+    "title": "Guestbook",
+    "section": "",
+    "text": "방문 기록이나 인사를 남겨 주세요. GitHub 계정으로 로그인해서 쓸 수 있습니다."
+  },
+  {
+    "objectID": "about-me.html",
+    "href": "about-me.html",
+    "title": "about me",
+    "section": "",
+    "text": "nomad @physics @cs — not mad, just curious."
+  },
+  {
+    "objectID": "about-me.html#now",
+    "href": "about-me.html#now",
+    "title": "about me",
+    "section": "Now",
+    "text": "Now"
+  },
+  {
+    "objectID": "about-me.html#topics",
+    "href": "about-me.html#topics",
+    "title": "about me",
+    "section": "Topics",
+    "text": "Topics"
+  },
+  {
+    "objectID": "about-me.html#timeline",
+    "href": "about-me.html#timeline",
+    "title": "about me",
+    "section": "Timeline",
+    "text": "Timeline\n\n\n2 양천고등학교 졸업\n\n\n3 충북대학교 물리학과 입학\n\n\n7 ~ 2021. 8 제2기갑여단 933포병대대 육군하사 만기전역\n\n\n3 ~ 2022. 12 충북대학교 물리학과 43대 Prism 학생회 학생회장\n\n\n3 ~ 2023. 12 충북대학교 물리학과 44대 Torque 학생회 사무부장\n\n\n2 충북대학교 물리학과 이학사 졸업\n\n\n2 충북대학교 물리학과 대학원 연구장비개발전공 이학석사 졸업"
+  },
+  {
+    "objectID": "about-me.html#outside-work",
+    "href": "about-me.html#outside-work",
+    "title": "about me",
+    "section": "Outside work",
+    "text": "Outside work"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Blog",
+    "section": "",
+    "text": "0. 프로젝트 동기\n\n\n\nProjects\n\nKorean History\n\n\n\n\nSQL + 한국사능력검정시험\n\n\n\n\n\n\n2026-11-21\n\n\n\n\n\n\n\n이중 슬릿 간섭 무늬 살펴보기\n\n\n\nPhysics\n\nVisualization\n\n\n\n\n슬릿 간격과 파장을 바꿔 보며 간섭 무늬를 확인하는 예시 글\n\n\n\n\n\n\n2026-10-27\n\n\n\n\n\n\n\n연구장비개발전공\n\n\n\nExperience\n\n\n\n\n충북대학교 물리학과 대학원 연구장비개발전공\n\n\n\n\n\n\n2026-02-23\n\n\n\n\n\n\n\n충북대학교 물리학과\n\n\n\nExperience\n\n\n\n\n충북대학교 물리학과 학부 과정\n\n\n\n\n\n\n2024-02-22\n\n\n\n\n\n\n\n44대 Torque 학생회\n\n\n\nExperience\n\n\n\n\n충북대학교 물리학과 44대 Torque 학생회 사무부장\n\n\n\n\n\n\n2023-12-31\n\n\n\n\n\n\n\n43대 Prism 학생회\n\n\n\nExperience\n\n\n\n\n충북대학교 물리학과 43대 Prism 학생회 학생회장\n\n\n\n\n\n\n2022-12-31\n\n\n\n\n\n\n\n제2기갑여단 933포병대대\n\n\n\nExperience\n\n\n\n\n제2기갑여단 933포병대대 육군하사\n\n\n\n\n\n\n2021-09-01\n\n\n\n\n\n일치 없음"
+  },
+  {
+    "objectID": "posts/cbnu-physics-graduate/index.html",
+    "href": "posts/cbnu-physics-graduate/index.html",
+    "title": "연구장비개발전공",
+    "section": "",
+    "text": "2024년 3월부터 2026년 2월까지 충북대학교 대학원 물리학과 연구장비개발전공 석사 과정, 2026년 2월 23일에 이학석사로 졸업. 학부 졸업연구를 지도받던 연구실에서 그대로 대학원 생활을 이어갔다."
+  },
+  {
+    "objectID": "posts/cbnu-physics-graduate/index.html#개요",
+    "href": "posts/cbnu-physics-graduate/index.html#개요",
+    "title": "연구장비개발전공",
+    "section": "",
+    "text": "2024년 3월부터 2026년 2월까지 충북대학교 대학원 물리학과 연구장비개발전공 석사 과정, 2026년 2월 23일에 이학석사로 졸업. 학부 졸업연구를 지도받던 연구실에서 그대로 대학원 생활을 이어갔다."
+  },
+  {
+    "objectID": "posts/cbnu-physics-graduate/index.html#연구장비개발전공",
+    "href": "posts/cbnu-physics-graduate/index.html#연구장비개발전공",
+    "title": "연구장비개발전공",
+    "section": "연구장비개발전공",
+    "text": "연구장비개발전공\n연구장비개발전공은 물리 이론을 배우는 데서 그치지 않고 측정과 제어, 자동화로 직접 장비를 설계하고 만드는 데 초점을 둔 전공이다. 이수한 과목은 다음과 같다.\n\n장비 제어: 장비자동화(DAQ, 시리얼 통신 등 컴퓨터 제어 계측), 장비개발프로젝트 I\n광학과 분광: 광학개론, 고급분광장비, 현미경개론\n이론: 양자물리학 I, II\n연구: 연구윤리 및 연구과제 I, 경력개발과 진로\n\n이수 과목은 전부 A+ 또는 Pass였고 평점은 4.50/4.50이었다. 논문제출자격시험은 광학개론, 현미경개론, 양자물리학 I로 2025년 9월에 통과."
+  },
+  {
+    "objectID": "posts/cbnu-physics-graduate/index.html#연구-5축-렌즈-자동정렬-장비",
+    "href": "posts/cbnu-physics-graduate/index.html#연구-5축-렌즈-자동정렬-장비",
+    "title": "연구장비개발전공",
+    "section": "연구: 5축 렌즈 자동정렬 장비",
+    "text": "연구: 5축 렌즈 자동정렬 장비\n석사 기간의 중심은 (주)바투잼과 함께한 산학 프로젝트였다. 카메라(CCD)와 렌즈 모듈을 5축(XYZ 선형 스테이지와 고니오미터 2개)으로 자동 정렬하는 장치와 이를 제어하는 파이썬 프로그램을 개발했다.\n\n스테핑 모터 컨트롤러와 스테이지를 제어하는 클래스를 만들고 상태 요청을 병렬로 처리했다. 위치와 스텝을 바꾸는 변환식도 직접 유도했다.\n카메라 영상을 여러 구역(ROI)으로 나눠 구역별 선명도를 계산했다. 이 값으로 z축 오토포커싱과 초점 평면 시각화를 구현했다.\n렌즈 클램프와 차광 구조물, 핀홀을 직접 제작하고 고쳐 가며 실험 환경을 다듬었다.\n기존 C 코드를 파이썬으로 옮겼다. 컨트롤러 명령은 딕셔너리와 Queue 기반으로 다시 설계했고, 이미지 처리와 스테이지 구동, 정렬 프로세스를 계층별로 나눠 모듈화했다.\n2025년 6월 기준으로 z축 탐색 정렬까지 완료했고, 선명도 기반 정렬과 좌표 기반 정렬은 진행 중이었다. 최종 완성은 못함"
+  },
+  {
+    "objectID": "posts/cbnu-physics-graduate/index.html#발표와-활동",
+    "href": "posts/cbnu-physics-graduate/index.html#발표와-활동",
+    "title": "연구장비개발전공",
+    "section": "발표와 활동",
+    "text": "발표와 활동\n\n장비개발프로젝트 수업에서 연구실 구성원이 돌아가며 발표하고 서로 질의응답을 했다. 청중이 직접 관련 논문을 찾아 질문하는 방식이었다.\nKBSI에서 열린 장비개발 성과발표 2차(2024.8, 2025.9)에 진출.\n충북대 양자기술 플랫폼 연구센터의 ICT 챌린지 아이디어 경진대회에 팀장으로 참가했다. 주제는 양자 어닐러 위협을 고려한 양자내성암호 전환 전략이다. 수상 여부는 볼트에 없다. (확인 필요)\n2024학년도 1학기부터 2025학년도 2학기까지 4개 학기 동안 일반물리학과 전자기학 TA."
+  },
+  {
+    "objectID": "posts/cbnu-physics-graduate/index.html#배운-점과-이후",
+    "href": "posts/cbnu-physics-graduate/index.html#배운-점과-이후",
+    "title": "연구장비개발전공",
+    "section": "배운 점과 이후",
+    "text": "배운 점과 이후\n\n장비 개발은 이론보다 시행착오가 많았다. 통신 오류나 호환성 문제, 구조물의 휨 같은 문제가 계속 나왔고, 지도교수님께 “진짜 문제부터 직면하라”는 피드백을 받았음.\n하드웨어와 소프트웨어를 함께 다루는 능력이 가장 크게 남았다. 이 경험이 졸업 후 방산, 반도체, IT 쪽 취업 준비(자기소개서 작성)의 바탕이 되었다.\n양자정보 쪽으로 공부를 넓히고 싶었지만 같은 연구실 동료의 연구와는 닿지 못했음."
+  },
+  {
+    "objectID": "posts/double-slit-interference/index.html",
+    "href": "posts/double-slit-interference/index.html",
+    "title": "이중 슬릿 간섭 무늬 살펴보기",
+    "section": "",
+    "text": "이 글은 블로그에서 쓸 수 있는 두 가지 상호작용 방식을 확인하기 위한 예시입니다."
+  },
+  {
+    "objectID": "posts/double-slit-interference/index.html#d-그래프-plotly",
+    "href": "posts/double-slit-interference/index.html#d-그래프-plotly",
+    "title": "이중 슬릿 간섭 무늬 살펴보기",
+    "section": "1. 3D 그래프 (Plotly)",
+    "text": "1. 3D 그래프 (Plotly)\nz = \\frac{\\sin r}{r},\\quad r = \\sqrt{x^2 + y^2}\n그래프를 마우스로 돌리고 확대해 볼 수 있습니다. 이 그래프는 빌드할 때 Python으로 한 번 계산됩니다.\n\n\n코드\nfrom surface import make_surface\n\nmake_surface().show()\n\n\n\n\n                            \n                                            \n\n\n그림 1\n\n\n\n\n\n\n\n\n\n\n노트surface.py 전체 코드\n\n\n\n\n\nimport numpy as np\nimport plotly.graph_objects as go\n\n\ndef make_surface(n=120, extent=6):\n    x = np.linspace(-extent, extent, n)\n    y = np.linspace(-extent, extent, n)\n    X, Y = np.meshgrid(x, y)\n    R = np.hypot(X, Y)\n    Z = np.sinc(R / np.pi)  # sin(R) / R\n\n    fig = go.Figure(go.Surface(x=X, y=Y, z=Z, colorscale=\"Viridis\"))\n    fig.update_layout(\n        height=520,\n        margin=dict(l=0, r=0, t=30, b=0),\n        scene=dict(xaxis_title=\"x\", yaxis_title=\"y\", zaxis_title=\"sin(r)/r\"),\n    )\n    return fig"
+  },
+  {
+    "objectID": "posts/double-slit-interference/index.html#슬라이더로-바뀌는-그래프-observable-js",
+    "href": "posts/double-slit-interference/index.html#슬라이더로-바뀌는-그래프-observable-js",
+    "title": "이중 슬릿 간섭 무늬 살펴보기",
+    "section": "2. 슬라이더로 바뀌는 그래프 (Observable JS)",
+    "text": "2. 슬라이더로 바뀌는 그래프 (Observable JS)\n이중 슬릿의 세기 분포는 다음과 같습니다. 방문자의 브라우저에서 계산되므로 슬라이더를 움직이면 바로 갱신됩니다.\nI(\\theta) = \\cos^2\\!\\left(\\frac{\\pi d \\sin\\theta}{\\lambda}\\right)\\left(\\frac{\\sin\\beta}{\\beta}\\right)^2,\\quad \\beta = \\frac{\\pi a \\sin\\theta}{\\lambda}\n\nviewof lam = Inputs.range([400, 700], {value: 550, step: 10, label: \"파장 λ (nm)\"})\nviewof d = Inputs.range([2, 20], {value: 8, step: 0.5, label: \"슬릿 간격 d (µm)\"})\nviewof a = Inputs.range([0.5, 5], {value: 1.5, step: 0.1, label: \"슬릿 너비 a (µm)\"})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata = {\n  const wl = lam / 1000; // µm\n  const sinc2 = (b) =&gt; (Math.abs(b) &lt; 1e-9 ? 1 : (Math.sin(b) / b) ** 2);\n  return d3.range(-0.3, 0.3001, 0.001).map((theta) =&gt; {\n    const s = Math.sin(theta);\n    const beta = (Math.PI * a * s) / wl;\n    const phase = (Math.PI * d * s) / wl;\n    return { theta, intensity: Math.cos(phase) ** 2 * sinc2(beta) };\n  });\n}\n\nPlot.plot({\n  height: 320,\n  x: { label: \"θ (rad)\" },\n  y: { label: \"상대 세기\", domain: [0, 1] },\n  marks: [Plot.lineY(data, { x: \"theta\", y: \"intensity\" }), Plot.ruleY([0])],\n})"
   },
   {
     "objectID": "posts/prism-student-council/index.html",
@@ -508,6 +522,6 @@
     "href": "topics/projects/korean-history/korean-history.html",
     "title": "Korean History",
     "section": "",
-    "text": "한국사 공부\n\n\n\n\n\n\n\n\n일치 없음"
+    "text": "한국사 공부\n\n\n\n\n\n\n\n\n\n0. 프로젝트 동기\n\n\n\nProjects\n\nKorean History\n\n\n\n\nSQL + 한국사능력검정시험\n\n\n\n\n\n\n2026-11-21\n\n\n\n\n\n일치 없음"
   }
 ]
