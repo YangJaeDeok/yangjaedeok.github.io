@@ -54,7 +54,7 @@ Proxmox 기반 NAS에 MariaDB용 LXC를 올리고, 해당 LXC에 제 맥북과 �
 
 Proxmox에 [MariaDB LXC 설치 스크립트](https://community-scripts.org/scripts/mariadb) 에서 명령어를 복사하고, host의 셸에 입력하면 설치됩니다.
 
-```shell  
+```bash
 var_os='debian' bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/mariadb.sh)"
 ```
 
@@ -68,7 +68,7 @@ DB 서버의 세부 설정은 개인 취향대로 하면 됩니다.
 
 진행에 따라 변할 수도 있지만, 큰 틀에서 레포 폴더 구조는 다음과 같습니다.
 
-```text  
+``` text
 korean-history-db/
 ├── .github/                          GitHub 설정 (이슈·PR 템플릿)
 │   └── ISSUE_TEMPLATE/               이슈 유형별 템플릿
