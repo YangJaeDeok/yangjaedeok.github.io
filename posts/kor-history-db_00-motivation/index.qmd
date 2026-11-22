@@ -54,7 +54,7 @@ Proxmox 기반 NAS에 MariaDB용 LXC를 올리고, 해당 LXC에 제 맥북과 �
 
 Proxmox에 [MariaDB LXC 설치 스크립트](https://community-scripts.org/scripts/mariadb) 에서 명령어를 복사하고, host의 셸에 입력하면 설치됩니다.
 
-```bash
+``` bash
 var_os='debian' bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/mariadb.sh)"
 ```
 
@@ -75,7 +75,7 @@ korean-history-db/
 ├── data/                             시대별 입력 SQL
 │   ├── 00_base/                      공통 기반 (시대 구분, 출처 등)
 │   ├── 01_prehistoric/               선사시대
-│   ├── 02_gojoseon/                  고조선
+│   ├── 02_gojoseon_early_states/     고조선과 초기 국가
 │   ├── 03_three_kingdoms/            삼국시대
 │   ├── 04_north_south_states/        남북국시대
 │   ├── 05_later_three_kingdoms/      후삼국시대
